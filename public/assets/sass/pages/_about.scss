@@ -1,0 +1,122 @@
+/*=============================
+	21. About page CSS start
+===============================*/
+
+.about-us-banner-section {
+  margin-top: 65px;
+}
+
+.why-choose-us-section {
+  margin-top: 160px;
+
+  .section-title-block {
+    padding-right: 80px;
+  }
+
+  .explore-more {
+    margin-top: 53px;
+
+    .view-all-btn {
+      padding-top: 39px;
+    }
+  }
+
+  .shape-img {
+    top: 44px;
+    left: -84px;
+  }
+
+  .why-choose-text {
+
+    .progress-wrap {
+      overflow: hidden;
+      margin-top: 61px;
+    }
+
+    .progress-item {
+      .progress {
+        height: 6px;
+        background-color: var(--bs-bg-color19);
+        border-radius: 8px;
+        position: relative;
+        overflow: inherit;
+
+        .progress-bar {
+          background-color: var(--bs-bg-color2);
+          overflow: inherit;
+          border-radius: 8px;
+        }
+
+      }
+
+      .progress-title {
+        color: var(--bs-text-color1);
+        font-family: var(--bs-font-secondary);
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 140%;
+        margin-top: 32px;
+      }
+    }
+
+    .progress-item+.progress-item {
+      margin-top: 40px;
+    }
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .why-choose-us-section .section-title-block {
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .counter-section .counter-label:nth-child(3) .counter-item {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .why-choose-us-section {
+    margin-top: 100px;
+  }
+
+  .why-choose-us-section .shape-img {
+    display: none;
+  }
+
+  .why-choose-us-section .why-choose-text {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .why-choose-us-section {
+    margin-top: 80px;
+  }
+
+  .why-choose-us-section .explore-more {
+    display: flex;
+    justify-content: center;
+  }
+
+  .why-choose-us-section .why-choose-text p {
+    text-align: center;
+  }
+
+  .why-choose-us-section .section-title-block {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .why-choose-us-section .why-choose-text .progress-item .progress-title {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  .why-choose-us-section .why-choose-text .progress-item+.progress-item {
+    margin-top: 20px;
+  }
+}

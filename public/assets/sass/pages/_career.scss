@@ -1,0 +1,341 @@
+/*=============================
+	26. Career page CSS start
+===============================*/
+.career-banner-section {
+  padding-top: 115px;
+}
+
+.career-information-section {
+  padding: 109px 0;
+
+  ul {
+    gap: 54px;
+
+    li {
+      color: var(--bs-text-color1);
+      font-size: 32px;
+      font-weight: 500;
+      line-height: 125%;
+
+      &::before {
+        position: absolute;
+        bottom: 9px;
+        right: -30px;
+        background-color: var(--bs-bg-color2);
+        width: 5px;
+        height: 5px;
+        content: "";
+      }
+
+      &:last-child {
+        &::before {
+          display: none;
+        }
+      }
+    }
+  }
+
+  p {
+    max-width: 979px;
+    margin: 0 auto;
+    margin-top: 27px;
+    color: var(--bs-paragraph);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 160%;
+  }
+}
+
+.career-inner-image-section {
+  padding-bottom: 90px;
+
+  .row {
+    --bs-gutter-y: 30px;
+  }
+
+}
+
+.vacancy-section {
+  background-color: var(--bs-bg-color7);
+  padding: 132px 0 183px 0;
+
+  .section-title-block {
+    margin-bottom: 43px;
+  }
+
+  .vacancy-item {
+    border-top: 1px solid var(--bs-border-color12);
+    padding: 59px 90px 57px 103px;
+
+    .number {
+      color: var(--bs-paragraph);
+      font-size: 24px;
+      font-weight: 600;
+      line-height: normal;
+      max-width: 10%;
+      width: 100%;
+    }
+
+    .subject {
+      max-width: 50%;
+      width: 100%;
+
+      h4 {
+        color: var(--bs-text-color1);
+        font-family: var(--bs-font-secondary);
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 132%;
+      }
+    }
+
+    .position {
+      max-width: 30%;
+      width: 100%;
+
+      p {
+        color: var(--bs-paragraph);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 160%;
+      }
+    }
+
+    .view {
+      max-width: 149px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .view-all-btn-primary {
+      top: -63px;
+      padding-top: 45px;
+      visibility: hidden;
+      opacity: 0;
+      transition: var(--bs-transition);
+      transform: scale(0);
+    }
+
+    &:last-child {
+      border-bottom: 1px solid var(--bs-border-color12);
+    }
+
+    &:hover {
+      .view-all-btn-primary {
+        visibility: visible;
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+  }
+}
+
+.benifits-section {
+  padding: 90px 0 124px 0;
+
+  .benifits-main {
+    .benifits-item {
+      width: 212px;
+      height: 213px;
+      border-radius: 62px;
+      border: 2px solid #D4D4D4;
+      padding: 40px;
+
+      h4 {
+        color: var(--bs-text-color1);
+        font-family: var(--bs-font-secondary);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+
+      &:nth-child(2),
+      &:nth-child(5) {
+        margin: 0 -17px;
+      }
+    }
+  }
+
+  .benifits-info {
+    margin-left: -30px;
+
+    .title {
+      color: var(--bs-text-color1);
+      font-family: var(--bs-font-secondary);
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 130%;
+      margin-bottom: 46px;
+      padding-right: 200px;
+    }
+
+    p {
+      color: var(--bs-text-color1);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 160%;
+    }
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .vacancy-section .vacancy-item {
+    padding: 59px 0px 57px 0px;
+  }
+
+  .benifits-section .benifits-main .benifits-item:nth-child(2),
+  .benifits-section .benifits-main .benifits-item:nth-child(5) {
+    margin: 0;
+  }
+
+  .benifits-section .benifits-info {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .career-banner-section {
+    padding-top: 100px;
+  }
+
+  .career-information-section {
+    padding: 100px 0;
+  }
+
+  .career-information-section p {
+    font-size: 18px;
+  }
+
+  .career-information-section ul li {
+    font-size: 26px;
+  }
+
+  .vacancy-section .vacancy-item .subject h4 {
+    font-size: 24px;
+  }
+
+  .vacancy-section {
+    padding: 10px 0 100px 0;
+  }
+
+  .benifits-section .benifits-info .title {
+    font-size: 38px;
+    margin-bottom: 14px;
+    padding-right: 0;
+  }
+
+  .benifits-section .benifits-info p {
+    font-size: 16px;
+  }
+
+  .benifits-section {
+    padding: 100px 0 100px 0;
+  }
+
+  .benifits-section .benifits-main {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .career-banner-section {
+    padding-top: 80px;
+  }
+
+  .career-information-section {
+    padding: 80px 0;
+  }
+
+  .career-information-section p {
+    font-size: 16px;
+  }
+
+  .vacancy-section {
+    padding: 10px 0 80px 0;
+  }
+
+  .vacancy-section .vacancy-item {
+    padding: 25px 0px 25px 0px;
+  }
+
+  .vacancy-section .vacancy-item .position p {
+    font-size: 15px;
+  }
+
+  .benifits-section {
+    padding: 80px 0 80px 0;
+  }
+
+  .benifits-section .benifits-main {
+    justify-content: space-between;
+    gap: 14px !important;
+  }
+
+  .benifits-section .benifits-main .benifits-item {
+    width: 48%;
+    height: 156px;
+    border-radius: 48px;
+    padding: 15px;
+  }
+
+  .benifits-section .benifits-main .benifits-item h4 {
+    font-size: 16px;
+  }
+
+  .benifits-section .benifits-info {
+    text-align: center;
+  }
+
+  .benifits-section .benifits-info .title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .career-information-section ul li {
+    font-size: 20px;
+  }
+
+  .career-information-section ul {
+    gap: 30px;
+  }
+
+  .career-information-section ul li::before {
+    right: -18px;
+  }
+
+  .career-information-section p {
+    margin-top: 20px;
+  }
+
+  .vacancy-section .vacancy-item {
+    text-align: center;
+  }
+
+  .vacancy-section .vacancy-item .number {
+    font-size: 20px;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .vacancy-section .vacancy-item .subject {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .vacancy-section .vacancy-item .position {
+    max-width: 100%;
+  }
+
+  .vacancy-section .vacancy-item .view {
+    max-width: 100%;
+  }
+
+  .vacancy-section .vacancy-item .view-all-btn-primary {
+    top: -113px;
+    left: 50%;
+    transform: translateX(-50%) !important;
+  }
+}

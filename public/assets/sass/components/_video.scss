@@ -1,0 +1,41 @@
+/*=============================
+	08. Video CSS start
+===============================*/
+.video-section {
+
+	.play {
+		text-align: center;
+		transition: var(--bs-transition);
+
+		.vidplay {
+			span {
+				color: var(--bs-white);
+				font-size: 24px;
+				font-weight: 500;
+				line-height: 150%;
+			}
+		}
+
+		&:hover {
+			transform: translate(-50%, -50%) scale(1.1) !important;
+		}
+	}
+}
+
+@media (max-width: 767.98px) {
+	.video-section .image {
+		height: 300px;
+
+		img {
+			height: 100%;
+			object-fit: cover;
+			object-position: center;
+		}
+	}
+}
+
+@media (max-width: 575.98px) {
+	.video-section .play .vidplay span {
+		font-size: 19px;
+	}
+}

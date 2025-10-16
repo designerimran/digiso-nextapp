@@ -1,0 +1,2017 @@
+{
+  "navbar": {
+    "logo": "/assets/img/logo/logo.svg",
+    "menu1": "Home",
+    "submenu1": [
+      {
+        "submenu": "Home One",
+        "link": "/home1"
+      },
+      {
+        "submenu": "Home Two",
+        "link": "/home2"
+      },
+      {
+        "submenu": "Home Three",
+        "link": "/home3"
+      }
+    ],
+    "menu2": "Pages",
+    "submenu2": [
+      {
+        "submenu": "About Us",
+        "link": "/about"
+      },
+      {
+        "submenu": "Services",
+        "link": "/services"
+      },
+      {
+        "submenu": "Service Details",
+        "link": "/service_details"
+      },
+      {
+        "submenu": "Team",
+        "link": "/team"
+      },
+      {
+        "submenu": "Pricing",
+        "link": "/pricing"
+      },
+      {
+        "submenu": "FAQs",
+        "link": "/faqs"
+      },
+      {
+        "submenu": "Career",
+        "link": "/career"
+      },
+      {
+        "submenu": "Career Details",
+        "link": "/career_details"
+      },
+      {
+        "submenu": "Blog",
+        "link": "/blog"
+      },
+      {
+        "submenu": "Blog Details",
+        "link": "/blog_details"
+      },
+      {
+        "submenu": "404 Error",
+        "link": "/error"
+      }
+    ],
+    "menu3": "Portfolio",
+    "submenu3": [
+      {
+        "submenu": "Portfolio",
+        "link": "/portfolio"
+      },
+      {
+        "submenu": "Portfolio Details",
+        "link": "/portfolio_details"
+      }
+    ],
+    "menu4": "Contact",
+    "menu4_link": "/contact",
+    "btn": "Join with us",
+    "btn_link": "/contact"
+  },
+  "home1": [
+    {
+      "id": "allheading",
+      "video_section_img": "/assets/img/images/video-image.png",
+      "video_section_video": "https://www.youtube.com/watch?v=PkkV1vLHUvQ",
+      "video_section_btnName": "Play",
+      "serviceSubtitle": "We Provide",
+      "serviceTitle": "Digital Agency Services.",
+      "service_btn_name": "View All Servesic",
+      "teamSubtitle": "Meet the Expart People",
+      "teamTitle": "Expart & professional team members",
+      "team_btn_name": "View All Members",
+      "blogSubtitle": "Exparts guidline",
+      "blogTitle": "Our features articles",
+      "blog_btn_name": "View All Articles"
+    },
+    {
+      "id": "banner",
+      "btn_name": "Strategy, Design, Solution, Development",
+      "title_line1": "Creating The",
+      "title_line2": "Best Digital",
+      "title_line3": "Solution",
+      "content": "Etiam sed odio dictum, tempus velit non, sollicitudin neque. Donec quis aliquet velit. Aliquam convallis dapibus purus.",
+      "img": "/assets/img/images/banner-img.png",
+      "marquee": [
+        {
+          "img": "/assets/img/brands/brand-img-1.png",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/brands/brand-img-2.png",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/brands/brand-img-3.png",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/brands/brand-img-4.png",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/brands/brand-img-5.png",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/brands/brand-img-6.png",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/brands/brand-img-7.png",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/brands/brand-img-1.png",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/brands/brand-img-2.png",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/brands/brand-img-3.png",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/brands/brand-img-4.png",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "id": "feature",
+      "title": "Feature Are More Helpful To Create Creative Brand As Well.",
+      "features": [
+        {
+          "icon": "/assets/img/features/feature-1-icon-1.svg",
+          "title": "Branding",
+          "content": "Etiam sed odio dictum, tempus velit non, sollicitudin nutoeque. Donec quis aliquet velit."
+        },
+        {
+          "icon": "/assets/img/features/feature-1-icon-2.svg",
+          "title": "Optimum",
+          "content": "Etiam sed odio dictum, tempus velit non, sollicitudin nutoeque. Donec quis aliquet velit."
+        },
+        {
+          "icon": "/assets/img/features/feature-1-icon-3.svg",
+          "title": "Thinking",
+          "content": "Etiam sed odio dictum, tempus velit non, sollicitudin nutoeque. Donec quis aliquet velit."
+        },
+        {
+          "icon": "/assets/img/features/feature-1-icon-4.svg",
+          "title": "Execution",
+          "content": "Etiam sed odio dictum, tempus velit non, sollicitudin nutoeque. Donec quis aliquet velit."
+        }
+      ]
+    },
+    {
+      "id": "project",
+      "title": "Here’s our latest project",
+      "content": "Our goal is making your working process faster and easier. Thats why we’ve added tons offlexible options with exclusive functions.",
+      "projects": [
+        {
+          "id": "1",
+          "title": "D-form Business Strategy",
+          "img": "/assets/img/projects/project-1-img-1.png",
+          "cls": "col-md-5"
+        },
+        {
+          "id": "2",
+          "title": "Mark Wide Marketing Strategy",
+          "img": "/assets/img/projects/project-1-img-2.png",
+          "cls": "col-md-7"
+        }
+      ],
+      "counter": [
+        {
+          "title": "Years of Experience",
+          "value": "28",
+          "unit": ""
+        },
+        {
+          "title": "Project complete",
+          "value": "2",
+          "unit": "k"
+        },
+        {
+          "title": "Happy Customers",
+          "value": "12",
+          "unit": "k"
+        },
+        {
+          "title": "Award Winning",
+          "value": "17",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonial",
+      "title": "TESTIMONIAL",
+      "imgs": [
+        {
+          "img": "/assets/img/testimonial/testmonial-img-1.png"
+        },
+        {
+          "img": "/assets/img/testimonial/testmonial-img-2.png"
+        },
+        {
+          "img": "/assets/img/testimonial/testmonial-img-3.png"
+        }
+      ],
+      "content": "1.5k World wide customers work with us",
+      "btn_name": "View All Feedback",
+      "slide": [
+        {
+          "name": "Esther Howard",
+          "designation": "Product Manager",
+          "content": "We cater to the creative needs of the broadest range of clients. Whether you are a for diev development agency looking to outsource design work, a company in search of a Product Designer."
+        },
+        {
+          "name": "Sazzad Hossain",
+          "designation": "Developer",
+          "content": "We cater to the creative needs of the broadest range of clients. Whether you are a for diev development agency looking to outsource design work, a company in search of a Product Designer."
+        },
+        {
+          "name": "Esther Howard",
+          "designation": "UX Designer",
+          "content": "We cater to the creative needs of the broadest range of clients. Whether you are a for diev development agency looking to outsource design work, a company in search of a Product Designer."
+        }
+      ]
+    },
+    {
+      "id": "footer",
+      "title": "Let’s Create Something Greate",
+      "content": "We shift you from todays reality to tomorrow's potential ensuring",
+      "btn_name": "Let's Talk With Us",
+      "left_menu": [
+        {
+          "title": "ABOUT COMPANY",
+          "link": "/about"
+        },
+        {
+          "title": "SERVICES",
+          "link": "/service_details"
+        },
+        {
+          "title": "PROJECTS",
+          "link": "/portfolio"
+        },
+        {
+          "title": "CONTACT",
+          "link": "/contact"
+        }
+      ],
+      "right_menu": [
+        {
+          "title": "PRAIVACY POLICY",
+          "link": "#"
+        },
+        {
+          "title": "TEARMS & CONDITIONS",
+          "link": "#"
+        }
+      ],
+      "socal_icon": [
+        {
+          "img": "/assets/img/icons/footer-icon-1.svg",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/icons/footer-icon-2.svg",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/icons/footer-icon-3.svg",
+          "link": "#"
+        }
+      ],
+      "copyright_text": "All Right Reserved © 2024 Digiso"
+    }
+  ],
+  "home2": [
+    {
+      "id": "banner",
+      "wlcText": "Welcome to ReBrand!",
+      "titleline1": "Next-Gen",
+      "titleline2": "Digital Marketing",
+      "titleline3": "Agency",
+      "content1": "Etiam sed odio dictum, tempus velit non, sollicitudin neque. Donec quis aliquet velit. Aliquam convallis dapibus purus.",
+      "content2": "Etiam sed odio dictum, tempus velit non, sollicit neque. Donec quis aliquet velit.",
+      "feedbackNum": "4.8",
+      "feedbackText": "Feedback",
+      "counter": [
+        {
+          "title": "Projects",
+          "value": "32",
+          "unit": "k"
+        },
+        {
+          "title": "Customers",
+          "value": "282",
+          "unit": "+"
+        }
+      ],
+      "img": "/assets/img/images/banner-two-img.png"
+    },
+    {
+      "id": "feature",
+      "title1": "Feature are more helpful to create",
+      "title2": "creative",
+      "title3": "brand",
+      "title4": "as well.",
+      "features": [
+        {
+          "icon": "/assets/img/features/feature-2-icon-1.svg",
+          "title": "Branding",
+          "content": "Etiam sed odio dictum, tempus velit non, sollicitudin nutoeque. Donec quis aliquet velit."
+        },
+        {
+          "icon": "/assets/img/features/feature-2-icon-2.svg",
+          "title": "Optimum",
+          "content": "Etiam sed odio dictum, tempus velit non, sollicitudin nutoeque. Donec quis aliquet velit."
+        },
+        {
+          "icon": "/assets/img/features/feature-2-icon-3.svg",
+          "title": "Thinking",
+          "content": "Etiam sed odio dictum, tempus velit non, sollicitudin nutoeque. Donec quis aliquet velit."
+        },
+        {
+          "icon": "/assets/img/features/feature-2-icon-4.svg",
+          "title": "Execution",
+          "content": "Etiam sed odio dictum, tempus velit non, sollicitudin nutoeque. Donec quis aliquet velit."
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "subtitle": "GET TO KNOW US",
+      "title": "Unlock the potential of your business",
+      "innertitle": "INSPIRED WITH CREATIVITY & SPACE",
+      "content": "Etiam sed odio dictum, tempus velit non, sollicitudin neque. Donec quis aliquet velit. Aliquam convallis dapibus purus. Etiam sed odio dictum, tempus velit non, sollicitudin neque. ",
+      "img1": "/assets/img/about-us/about-1-img-1.png",
+      "img2": "/assets/img/about-us/about-1-img-2.png",
+      "btn": "About Us",
+      "videoImg": "/assets/img/about-us/about-video-text.svg",
+      "video": "https://www.youtube.com/watch?v=PkkV1vLHUvQ"
+    },
+    {
+      "id": "allheading",
+      "content": "Etiam sed odio dictum, tempus velit non, sollicitudin neque. Donec quis aliquet velit. Aliquam convallis dapibus purus. Etiam sed odio dictum, tempus velit non, sollicitudin neque.",
+      "serviceTitle": "Expertise field",
+      "serviceSubTitle": "WHAT WE DO",
+      "serviceBtn": "View All Services",
+      "textSlider": "Strategy * Development * Branding * Marketing",
+      "teamTitle": "Expart & professional team members",
+      "teamSubTitle": "Meet the Expart People",
+      "teamBtn": "View All Members",
+      "testBtn": "View Details",
+      "testTitle": "Happy customer feedback",
+      "testSubtitle": "client review",
+      "footerTitle": "Let’s Create Something Greate",
+      "footerContent": "Etiam sed odio dictum, tempus velit non, sollicitudin neque. Donec quis aliquet velit. Aliquam convallis dapibus purus. Etiam sed odio dictum."
+    },
+    {
+      "id": "project",
+      "btn": "View All Projects",
+      "title1": "How we make",
+      "title2": "user",
+      "title3": "experience",
+      "authorName": "Ayesha Khan",
+      "authorDesignation": "Digital Artist",
+      "experiance": "25",
+      "experianceText1": "years of",
+      "experianceText2": "digital experience",
+      "projects": [
+        {
+          "id": "1",
+          "img": "/assets/img/projects/project-2-img-1.png",
+          "btn": "View Details",
+          "cls": "col-lg-7"
+        },
+        {
+          "id": "2",
+          "img": "/assets/img/projects/project-2-img-2.png",
+          "cls": "col-lg-5",
+          "btn": "View Details"
+        },
+        {
+          "id": "3",
+          "img": "/assets/img/projects/project-2-img-3.png",
+          "cls": "col-lg-5",
+          "btn": "View Details"
+        },
+        {
+          "id": "4",
+          "img": "/assets/img/projects/project-2-img-4.png",
+          "cls": "col-lg-7",
+          "btn": "View Details"
+        }
+      ]
+    },
+    {
+      "id": "blog",
+      "title": "Our Latest Articles",
+      "subtitle": "Exparts guidline",
+      "content": "Etiam sed odio dictum, tempus velit non, sollicitudin neque. Donec quis aliquet velit. Aliquam convallis dapibus purus. Etiam sed odio dictum, tempus velit non, sollicitudin neque.",
+      "btn": "View All Articles",
+      "blogs": [
+        {
+          "id": "1",
+          "date": "12 JUN 2024",
+          "img": "/assets/img/blog/blog-2-img-1.png",
+          "title": "Creative advertising our life became noise."
+        },
+        {
+          "id": "2",
+          "date": "12 JUN 2024",
+          "img": "/assets/img/blog/blog-2-img-2.png",
+          "title": "Staying ahead of the curve in the digital world"
+        }
+      ]
+    }
+  ],
+  "home3": [
+    {
+      "id": "banner",
+      "clintImg": [
+        "/assets/img/testimonial/testimonial-sm-img-1.png",
+        "/assets/img/testimonial/testimonial-sm-img-2.png",
+        "/assets/img/testimonial/testimonial-sm-img-3.png"
+      ],
+      "clintText": "10K+ Clients",
+      "title1": "Next-Gen",
+      "title2": "Storytelling Digital Agency",
+      "content": "Etiam sed odio dictum, tempus velit non, sollicitudin neque. Donec quis aliquet velit. Aliquam convallis dapibus purus.",
+      "btn": "Explore More",
+      "img": "/assets/img/images/banner-three-img.png",
+      "experience": [
+        {
+          "year": "10",
+          "unit": "+",
+          "title": "Years of Experience"
+        },
+        {
+          "year": "710",
+          "unit": "+",
+          "title": "Projetcs Handover"
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "title": "We're thrilled to partner with some of the biggest global brands",
+      "content": "Crafting compelling digital experiences that captivate audiences and drive meaningful connections.",
+      "brand": [
+        {
+          "img": "/assets/img/about-us/about-logo-1.png",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/about-us/about-logo-2.png",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/about-us/about-logo-3.png",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/about-us/about-logo-4.png",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/about-us/about-logo-5.png",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/about-us/about-logo-6.png",
+          "link": "#"
+        }
+      ],
+      "img": "/assets/img/about-us/about-us-img-2.png",
+      "video": "https://www.youtube.com/watch?v=PkkV1vLHUvQ",
+      "rotateImg": "/assets/img/about-us/about-video-text-white.svg"
+    },
+    {
+      "id": "allheading",
+      "serviceTitle": "Our Feature Services",
+      "serviceContent": "Etiam sed odio dictum, tempus velit non, sollicitudin neque. Donec quis aliquet velit. Aliquam convallis dapibus purus.",
+      "serviceBtn": "View All Services",
+      "blogTitle": "What our clients and partners reviews",
+      "blogContent": "Crafting compelling digital experiences that captivate audiences and drive meaningful connections.",
+      "blogBtn": "View All Blogs"
+    },
+    {
+      "id": "project",
+      "title": "Some of our recent case studies.",
+      "content": "Crafting compelling digital experiences that captivate audiences and drive meaningful connections.",
+      "projects": [
+        {
+          "id": "1",
+          "img": "/assets/img/projects/project-3-img-1.png",
+          "title": "Our Feature Services",
+          "content": "Etiam sed odio dictum, tempus velit non, sollicitudin neque. Donec quis aliquet velit. Aliquam convallis dapibus purus.",
+          "btn": "View Full Project"
+        },
+        {
+          "id": "2",
+          "img": "/assets/img/projects/project-3-img-2.png",
+          "title": "Our Feature Services",
+          "content": "Etiam sed odio dictum, tempus velit non, sollicitudin neque. Donec quis aliquet velit. Aliquam convallis dapibus purus.",
+          "btn": "View Full Project"
+        },
+        {
+          "id": "3",
+          "img": "/assets/img/projects/project-3-img-3.png",
+          "title": "Our Feature Services",
+          "content": "Etiam sed odio dictum, tempus velit non, sollicitudin neque. Donec quis aliquet velit. Aliquam convallis dapibus purus.",
+          "btn": "View Full Project"
+        }
+      ]
+    },
+    {
+      "id": "feature",
+      "title": "We work for better growing result step by step",
+      "content": "Crafting compelling digital experiences that captivate audiences and drive meaningful connections.",
+      "features": [
+        {
+          "num": "01",
+          "cls": "",
+          "img": "/assets/img/features/feature-img-1.png",
+          "title": "Briefing & Research",
+          "content": "Nor is there anyone who loves or pursues or desires to obtain pain litselfe because. Nor is there anyone who loves or pursues or desires to obtain pain litselfe because."
+        },
+        {
+          "num": "02",
+          "cls": "no-img-item",
+          "img": "",
+          "title": "Brainstorming",
+          "content": "Nor is there anyone who loves or pursues or desires to obtain pain litselfe because. Nor is there anyone who loves or pursues or desires to obtain pain litselfe because."
+        },
+        {
+          "num": "03",
+          "cls": "no-img-item",
+          "img": "",
+          "title": "Production",
+          "content": "Nor is there anyone who loves or pursues or desires to obtain pain litselfe because. Nor is there anyone who loves or pursues or desires to obtain pain litselfe because."
+        },
+        {
+          "num": "04",
+          "cls": "",
+          "img": "/assets/img/features/feature-img-2.png",
+          "title": "Quality Assurance",
+          "content": "Nor is there anyone who loves or pursues or desires to obtain pain litselfe because. Nor is there anyone who loves or pursues or desires to obtain pain litselfe because."
+        }
+      ]
+    },
+    {
+      "id": "testimonial",
+      "title": "What our clients and partners reviews",
+      "content": "Crafting compelling digital experiences that captivate audiences and drive meaningful connections.",
+      "img": "/assets/img/testimonial/testimonial-3-img-1.png",
+      "slides": [
+        {
+          "content": "We cater to the creative needs of the broadest range of clients. Whether you are a for diev development agency looking to outsource design work, a company in search of a Product Designer.",
+          "img": "/assets/img/testimonial/testmonial-img-3.png",
+          "author": "Esther Howard",
+          "designation": "Product Manager",
+          "star": [
+            "assets/img/icons/star.svg",
+            "assets/img/icons/star.svg",
+            "assets/img/icons/star.svg",
+            "assets/img/icons/star.svg",
+            "assets/img/icons/star.svg"
+          ]
+        },
+        {
+          "content": "We cater to the creative needs of the broadest range of clients. Whether you are a for diev development agency looking to outsource design work, a company in search of a Product Designer.",
+          "img": "/assets/img/testimonial/testmonial-img-3.png",
+          "author": "Esther Howard",
+          "designation": "Product Manager",
+          "star": [
+            "assets/img/icons/star.svg",
+            "assets/img/icons/star.svg",
+            "assets/img/icons/star.svg",
+            "assets/img/icons/star.svg",
+            "assets/img/icons/star.svg"
+          ]
+        }
+      ],
+      "quoteImg": "/assets/img/icons/quote-2.svg",
+      "customerImg": [
+        "assets/img/testimonial/testmonial-img-1.png",
+        "assets/img/testimonial/testmonial-img-2.png",
+        "assets/img/testimonial/testmonial-img-3.png"
+      ],
+      "img2": "assets/img/testimonial/testmonial-img-3.png",
+      "customers": "1k+"
+    }
+  ],
+  "about": {
+    "pageheader": {
+      "title": "About",
+      "subTitle": " We Are A Digital Agency For Visually Compelling About Stories ReBrand.",
+      "rotate_img": "/assets/img/services/rotate-text.svg",
+      "video": "https://www.youtube.com/watch?v=PkkV1vLHUvQ",
+      "content": "Nunc nec semper arcu, id malesuada est. Integer sodales, magna ac porta ultricies, tortor sapien malesuada dui, sit amet vestibulum magna dui et odio. Donec eu urna vitae orci lacinia malesuada. Duis convallis nunc mi, eu euismod velit cursus vitae. Cras egestas quis dui a dignissim. Nunc ultricies mi quis tristique dapibus.",
+      "btnName": "About Us"
+    },
+    "bannerImg": "/assets/img/about-us/about-us-banner.png",
+    "counter": [
+      {
+        "title": "Product Sale Per Day Using Out Tools.",
+        "value": "31",
+        "unit": ".2k"
+      },
+      {
+        "title": "Downloaded Total In 2018-2024.",
+        "value": "2",
+        "unit": ".3M"
+      },
+      {
+        "title": "Trusted By Customers Worldwide Over.",
+        "value": "50",
+        "unit": "M"
+      }
+    ],
+    "whyChooseUs": {
+      "title": "Our goal is making your working process faster and easier.",
+      "btn": "Explore More",
+      "btn_link": "#",
+      "content": "Donec et luctus nisi. Duis posuere dolor ac augue porta pellentesque. Nunc lacinia lorem eu nulla aliquam ullamcorper. Ut diam nisi, interdum nec orci nec, feugiat interdum magna. Nulla pulvinar lectus vel fringilla porttitor. Morbi pharetra pulvinar lacus, quis laoreet ex imperdiet id. Mauris et posuere lacus, at imperdiet velit.",
+      "progressbar": [
+        {
+          "title": "UX/UI Design ",
+          "value": "75"
+        },
+        {
+          "title": "Web Design ",
+          "value": "65"
+        },
+        {
+          "title": "Web Development ",
+          "value": "85"
+        },
+        {
+          "title": "Branding Design",
+          "value": "80"
+        }
+      ]
+    },
+    "service": {
+      "title": "We Provide Service To Support Company",
+      "btn": "View All Services",
+      "content": "Etiam sed odio dictum, tempus velit non, sollicitudin neque. Donec quis aliquet velit. Aliquam convallis dapibus purus. Etiam sed odio dictum, tempus velit non, sollicitudin neque."
+    },
+    "project": {
+      "title": "Some of our recent case studies.",
+      "content": "Donec et luctus nisi. Duis posuere dolor ac augue porta pellentesque. Nunc lacinia lorem eu nulla aliquam ullamcorper. Ut diam nisi, interdum nec orci nec, feugiat interdum magna",
+      "btnName": "View All Projects",
+      "slides": [
+        {
+          "img": "/assets/img/projects/project-4-img-1.png",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/projects/project-4-img-2.png",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/projects/project-4-img-3.png",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/projects/project-4-img-4.png",
+          "link": "#"
+        }
+      ]
+    },
+    "team": {
+      "subtitle": "Meet the Expart People",
+      "title": "Expart & professional team members"
+    },
+    "textmarque": [
+      {
+        "text": "We are happy to work with global largest brands *"
+      },
+      {
+        "text": "We are happy to work with global largest brands *"
+      }
+    ],
+    "brandmarque": [
+      {
+        "img": "/assets/img/brands/brand-slider-two-img-1.png",
+        "link": "#"
+      },
+      {
+        "img": "/assets/img/brands/brand-slider-two-img-2.png",
+        "link": "#"
+      },
+      {
+        "img": "/assets/img/brands/brand-slider-two-img-3.png",
+        "link": "#"
+      },
+      {
+        "img": "/assets/img/brands/brand-slider-two-img-4.png",
+        "link": "#"
+      },
+      {
+        "img": "/assets/img/brands/brand-slider-two-img-5.png",
+        "link": "#"
+      },
+      {
+        "img": "/assets/img/brands/brand-slider-two-img-3.png",
+        "link": "#"
+      }
+    ],
+    "testimonial": {
+      "title": "Happy customer feedback",
+      "subtitle": "client review"
+    },
+    "footer": {
+      "logo": "/assets/img/logo/logo.svg",
+      "title1": "Pages",
+      "title2": "CMS",
+      "title3": "Branding Agency",
+      "content": "3F Mitaka Takagi Building, Musashino-shi,80-0006 Japan",
+      "pages": [
+        {
+          "title": "Home",
+          "link": "/home1"
+        },
+        {
+          "title": "Services",
+          "link": "/service"
+        },
+        {
+          "title": "Portfolio",
+          "link": "/portfolio"
+        },
+        {
+          "title": "Contact",
+          "link": "/contact"
+        }
+      ],
+      "cms": [
+        {
+          "title": "Integration",
+          "link": "#"
+        },
+        {
+          "title": "Customers",
+          "link": "#"
+        },
+        {
+          "title": "Case Studies",
+          "link": "#"
+        },
+        {
+          "title": "Our Blog",
+          "link": "/blog"
+        },
+        {
+          "title": "Careers",
+          "link": "/career"
+        }
+      ],
+      "socal_icon": [
+        {
+          "img": "/assets/img/icons/footer-icon-1.svg",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/icons/footer-icon-2.svg",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/icons/footer-icon-3.svg",
+          "link": "#"
+        }
+      ],
+      "copyright_text": "All Right Reserved © 2024 Digiso"
+    }
+  },
+  "servicePage": [
+    {
+      "id": "pageheader",
+      "subtitle": "Digital Solution",
+      "title": "SERVIC",
+      "content": "We’re designing digital experiences that enrich human lives and it helps to grow your business globally trends.",
+      "rotate_text": "/assets/img/services/rotate-text.svg",
+      "video": "https://www.youtube.com/watch?v=PkkV1vLHUvQ"
+    },
+    {
+      "id": "specialservice",
+      "subtitle": "Special Services REBRAND",
+      "title": "Best Of Our Problem Solutions For Our Special Service",
+      "services": [
+        {
+          "id": "1",
+          "title": "Business Strategy",
+          "img": "/assets/img/services/service-rebrand-img-1.png"
+        },
+        {
+          "id": "2",
+          "title": "Marketing Strategy",
+          "img": "/assets/img/services/service-rebrand-img-2.png"
+        },
+        {
+          "id": "3",
+          "title": "Interactive Design",
+          "img": "/assets/img/services/service-rebrand-img-3.png"
+        }
+      ]
+    },
+    {
+      "id": "testimonial",
+      "subtitle": "What client Says our REBRAND",
+      "title": "Best Of Our Problem Solutions For Our Testimonials",
+      "slide": [
+        {
+          "num": "1.5k",
+          "title": "Reviews",
+          "content": "We cater to the creative needs of the broadest range of clients. Whether you are a for diev development agency looking to outsource design work.",
+          "star": [
+            "/assets/img/icons/star.svg",
+            "/assets/img/icons/star.svg",
+            "/assets/img/icons/star.svg",
+            "/assets/img/icons/star.svg",
+            "/assets/img/icons/star.svg"
+          ]
+        },
+        {
+          "num": "1.5k",
+          "title": "Reviews",
+          "content": "We cater to the creative needs of the broadest range of clients. Whether you are a for diev development agency looking to outsource design work.",
+          "star": [
+            "/assets/img/icons/star.svg",
+            "/assets/img/icons/star.svg",
+            "/assets/img/icons/star.svg",
+            "/assets/img/icons/star.svg",
+            "/assets/img/icons/star.svg"
+          ]
+        },
+        {
+          "num": "1.5k",
+          "title": "Reviews",
+          "content": "We cater to the creative needs of the broadest range of clients. Whether you are a for diev development agency looking to outsource design work.",
+          "star": [
+            "/assets/img/icons/star.svg",
+            "/assets/img/icons/star.svg",
+            "/assets/img/icons/star.svg",
+            "/assets/img/icons/star.svg",
+            "/assets/img/icons/star.svg"
+          ]
+        }
+      ],
+      "slide2": [
+        {
+          "name": "Esther Howard",
+          "designation": "Product Manager",
+          "img": "/assets/img/testimonial/testimonial-2-img-1.png"
+        },
+        {
+          "name": "Esther Howard",
+          "designation": "Product Manager",
+          "img": "/assets/img/testimonial/testimonial-2-img-1.png"
+        },
+        {
+          "name": "Esther Howard",
+          "designation": "Product Manager",
+          "img": "/assets/img/testimonial/testimonial-2-img-1.png"
+        }
+      ]
+    },
+    {
+      "id": "brand",
+      "brand": [
+        {
+          "img": "/assets/img/brands/brand-2-img-1.png",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/brands/brand-2-img-2.png",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/brands/brand-2-img-3.png",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/brands/brand-2-img-4.png",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/brands/brand-2-img-5.png",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/brands/brand-2-img-6.png",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "id": "footer",
+      "btn_name": "Let's Talk With Us",
+      "left_menu": [
+        {
+          "title": "ABOUT COMPANY",
+          "link": "/about"
+        },
+        {
+          "title": "SERVICES",
+          "link": "/service"
+        },
+        {
+          "title": "CONTACT",
+          "link": "/contact"
+        }
+      ],
+      "right_menu": [
+        {
+          "title": "PRAIVACY POLICY",
+          "link": "#"
+        },
+        {
+          "title": "TEARMS & CONDITIONS",
+          "link": "#"
+        }
+      ],
+      "socal_icon": [
+        {
+          "img": "/assets/img/icons/footer-icon-1.svg",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/icons/footer-icon-2.svg",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/icons/footer-icon-3.svg",
+          "link": "#"
+        }
+      ],
+      "copyright_text": "All Right Reserved © 2024 Digiso"
+    }
+  ],
+  "service": [
+    {
+      "id": "1",
+      "number": "01",
+      "category": "",
+      "icon": "/assets/img/services/service-icon-3.svg",
+      "title": "Development",
+      "content": "Etiam sed odio dictum, tempus velit non, sollicitudin neque. Donec quis aliquet velit.",
+      "btn_name": "View Details",
+      "btn_name2": "Read More"
+    },
+    {
+      "id": "2",
+      "category": "serv",
+      "number": "02",
+      "icon": "/assets/img/services/service-icon-3.svg",
+      "title": "Strategy",
+      "content": "Etiam sed odio dictum, tempus velit non, sollicitudin neque. Donec quis aliquet velit.",
+      "btn_name": "View Details",
+      "btn_name2": "Read More"
+    },
+    {
+      "id": "3",
+      "category": "serv",
+      "number": "03",
+      "icon": "/assets/img/services/service-icon-5.svg",
+      "title": "Marketing",
+      "content": "Etiam sed odio dictum, tempus velit non, sollicitudin neque. Donec quis aliquet velit.",
+      "btn_name": "View Details",
+      "btn_name2": "Read More"
+    },
+    {
+      "id": "4",
+      "number": "04",
+      "icon": "/assets/img/services/service-icon-2.svg",
+      "title": "Branding",
+      "content": "Etiam sed odio dictum, tempus velit non, sollicitudin neque. Donec quis aliquet velit.",
+      "btn_name": "View Details",
+      "btn_name2": "Read More"
+    },
+    {
+      "id": "5",
+      "number": "05",
+      "icon": "/assets/img/services/service-icon-1.svg",
+      "title": "Planning",
+      "content": "Etiam sed odio dictum, tempus velit non, sollicitudin neque. Donec quis aliquet velit.",
+      "btn_name": "View Details",
+      "btn_name2": "Read More"
+    },
+    {
+      "id": "6",
+      "number": "06",
+      "icon": "/assets/img/services/service-icon-4.svg",
+      "title": "Product",
+      "content": "Etiam sed odio dictum, tempus velit non, sollicitudin neque. Donec quis aliquet velit.",
+      "btn_name": "View Details",
+      "btn_name2": "Read More"
+    },
+    {
+      "id": "7",
+      "number": "07",
+      "icon": "/assets/img/services/service-icon-6.svg",
+      "title": "Promotion",
+      "content": "Etiam sed odio dictum, tempus velit non, sollicitudin neque. Donec quis aliquet velit.",
+      "btn_name": "View Details",
+      "btn_name2": "Read More"
+    }
+  ],
+  "serviceDetails": [
+    {
+      "id": "1",
+      "subtitle": "BRANDING DESIGN",
+      "title": "Servic",
+      "content1": "Nunc nec semper arcu, id malesuada est. Integer sodales, magna ac porta ultricies, tortor sapien malesuada dui, sit amet vestibulum magna dui et odio. Donec eu urna vitae orci lacinia malesuada. Duis convallis nunc mi, eu euismod velit cursus vitae. Cras egestas quis dui a dignissim. Nunc ultricies mi quis tristique dapibus.",
+      "socal_icon": [
+        {
+          "img": "/assets/img/icons/contact-icon-1.svg",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/icons/contact-icon-2.svg",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/icons/contact-icon-3.svg",
+          "link": "#"
+        },
+        {
+          "img": "/assets/img/icons/contact-icon-4.svg",
+          "link": "#"
+        }
+      ],
+      "list1": [
+        {
+          "icon": "+",
+          "content": "Email Marketing"
+        },
+        {
+          "icon": "+",
+          "content": "Product Marketing"
+        },
+        {
+          "icon": "+",
+          "content": "Promotion"
+        },
+        {
+          "icon": "+",
+          "content": "Graphics Design"
+        },
+        {
+          "icon": "+",
+          "content": "Strategy Solution"
+        },
+        {
+          "icon": "+",
+          "content": "Brand Strategy"
+        }
+      ],
+      "bannerImg": "/assets/img/services/service-details-banner.png",
+      "service_process": [
+        {
+          "title": "Planning and sketching",
+          "content": "Modern and unique design practically point of view, it risks not meeting the expectations."
+        },
+        {
+          "title": "Team working",
+          "content": "Modern and unique design practically point of view, it risks not meeting the expectations."
+        },
+        {
+          "title": "Flowchart and wireframe",
+          "content": "Modern and unique design practically point of view, it risks not meeting the expectations."
+        },
+        {
+          "title": "User experience Testing",
+          "content": "Modern and unique design practically point of view, it risks not meeting the expectations."
+        }
+      ],
+      "brandTitle": "We replace unreliable wirefreme and expensive agencies for one of the best organized layer.",
+      "brandvideo": "https://www.youtube.com/watch?v=PkkV1vLHUvQ",
+      "rotateImg": "/assets/img/services/rotate-text.svg",
+      "brandImg": "/assets/img/services/service-brand-img.png",
+      "content2": "Receive your design within a few business days, and be updated on the process. Everything you need for a digitally driven brand. Defined proposition. Conceptual realisation. Logo, type, look, feel, tone, movement, content - we've got it covered.",
+      "content3": "Receive your design within a few business days, and be updated on the process. Everything you need for a digitally driven brand. Defined proposition. Conceptual realisation. Logo, type, look, feel, tone, movement, content - we've got it covered.",
+      "faqTitle": "Product making for friendly users",
+      "faqImg": "/assets/img/images/faq-img-2.png",
+      "faqItem": [
+        {
+          "id": "headingOne",
+          "target": "collapseOne",
+          "collapse": "",
+          "question": "Design should enrich our day",
+          "answer": "Our design services starts and ends with a best-in-class experience strategy that builds brands. Through a process of iteration and prototyping design interfaces that bring joy to people",
+          "aria_expanded": "false",
+          "show": "show"
+        },
+        {
+          "id": "headingTwo",
+          "target": "collapseTwo",
+          "collapse": "collapsed",
+          "question": "Bring their individual experience and creative",
+          "answer": "Our design services starts and ends with a best-in-class experience strategy that builds brands. Through a process of iteration and prototyping design interfaces that bring joy to people",
+          "aria_expanded": "false",
+          "show": ""
+        },
+        {
+          "id": "headingThree",
+          "target": "collapseThree",
+          "collapse": "collapsed",
+          "question": "Human centred design to challenges",
+          "answer": "Our design services starts and ends with a best-in-class experience strategy that builds brands. Through a process of iteration and prototyping design interfaces that bring joy to people",
+          "aria_expanded": "false",
+          "show": ""
+        },
+        {
+          "id": "headingFour",
+          "target": "collapseFour",
+          "collapse": "collapsed",
+          "question": "Design should enrich our day",
+          "answer": "Our design services starts and ends with a best-in-class experience strategy that builds brands. Through a process of iteration and prototyping design interfaces that bring joy to people",
+          "aria_expanded": "false",
+          "show": ""
+        },
+        {
+          "id": "headingFive",
+          "target": "collapseFive",
+          "collapse": "collapsed",
+          "question": "Developing core web applications",
+          "answer": "Our design services starts and ends with a best-in-class experience strategy that builds brands. Through a process of iteration and prototyping design interfaces that bring joy to people",
+          "aria_expanded": "false",
+          "show": ""
+        }
+      ],
+      "content4": "Our design services starts and ends with a best-in-class experience strategy that builds brands. Through a process of iteration and prototyping design interfaces that bring joy to people"
+    }
+  ],
+  "faq": {
+    "subtitle": "We Are A Digital Agency For Visually Frequency And Questions ReBrand.",
+    "title": "FAQ RE",
+    "img": "/assets/img/images/faq-img.png",
+    "faqItem": [
+      {
+        "id": "headingOne",
+        "target": "collapseOne",
+        "collapse": "",
+        "question": "Design should enrich our day",
+        "answer": "Our design services starts and ends with a best-in-class experience strategy that builds brands. Through a process of iteration and prototyping design interfaces that bring joy to people",
+        "aria_expanded": "false",
+        "show": "show"
+      },
+      {
+        "id": "headingTwo",
+        "target": "collapseTwo",
+        "collapse": "collapsed",
+        "question": "Bring their individual experience and creative",
+        "answer": "Our design services starts and ends with a best-in-class experience strategy that builds brands. Through a process of iteration and prototyping design interfaces that bring joy to people",
+        "aria_expanded": "false",
+        "show": ""
+      },
+      {
+        "id": "headingThree",
+        "target": "collapseThree",
+        "collapse": "collapsed",
+        "question": "Human centred design to challenges",
+        "answer": "Our design services starts and ends with a best-in-class experience strategy that builds brands. Through a process of iteration and prototyping design interfaces that bring joy to people",
+        "aria_expanded": "false",
+        "show": ""
+      },
+      {
+        "id": "headingFour",
+        "target": "collapseFour",
+        "collapse": "collapsed",
+        "question": "Design should enrich our day",
+        "answer": "Our design services starts and ends with a best-in-class experience strategy that builds brands. Through a process of iteration and prototyping design interfaces that bring joy to people",
+        "aria_expanded": "false",
+        "show": ""
+      },
+      {
+        "id": "headingFive",
+        "target": "collapseFive",
+        "collapse": "collapsed",
+        "question": "Developing core web applications",
+        "answer": "Our design services starts and ends with a best-in-class experience strategy that builds brands. Through a process of iteration and prototyping design interfaces that bring joy to people",
+        "aria_expanded": "false",
+        "show": ""
+      },
+      {
+        "id": "headingSix",
+        "target": "collapseSix",
+        "collapse": "collapsed",
+        "question": "Are they everything to everyone?",
+        "answer": "Our design services starts and ends with a best-in-class experience strategy that builds brands. Through a process of iteration and prototyping design interfaces that bring joy to people",
+        "aria_expanded": "false",
+        "show": ""
+      }
+    ],
+    "content": "We’re a diverse team that works as fancies attention to details, enjoys beers on Friday nights and aspires to design the dent in the universe."
+  },
+  "textmarquee": [
+    {
+      "title": "Business"
+    },
+    {
+      "title": "Strategy"
+    },
+    {
+      "title": "Promotion"
+    },
+    {
+      "title": "Business"
+    },
+    {
+      "title": "Strategy"
+    },
+    {
+      "title": "Promotion"
+    }
+  ],
+  "testimonial": [
+    {
+      "starImg1": "/assets/img/icons/star.svg",
+      "starImg2": "/assets/img/icons/star.svg",
+      "starImg3": "/assets/img/icons/star.svg",
+      "starImg4": "/assets/img/icons/star.svg",
+      "starImg5": "/assets/img/icons/star.svg",
+      "content": "Etiam sed odio dictum, tempus velit non, sollicitudin neque. Donec quis aliquet velit convallis purus.",
+      "iconCls": "",
+      "icon": "/assets/img/icons/quote.svg",
+      "title": "Wade Warren",
+      "designation": "Founder of Edardx"
+    },
+    {
+      "starImg1": "/assets/img/icons/star.svg",
+      "starImg2": "/assets/img/icons/star.svg",
+      "starImg3": "/assets/img/icons/star.svg",
+      "starImg4": "/assets/img/icons/star.svg",
+      "starImg5": "/assets/img/icons/star.svg",
+      "content": "Etiam sed odio dictum, tempus velit non, sollicitudin neque. Donec quis aliquet velit convallis purus.",
+      "iconCls": "icon-two",
+      "icon": "/assets/img/icons/quote.svg",
+      "title": "Henry Foster",
+      "designation": "Founder of InnovateX"
+    },
+    {
+      "starImg1": "/assets/img/icons/star.svg",
+      "starImg2": "/assets/img/icons/star.svg",
+      "starImg3": "/assets/img/icons/star.svg",
+      "starImg4": "/assets/img/icons/star.svg",
+      "starImg5": "/assets/img/icons/star.svg",
+      "content": "Etiam sed odio dictum, tempus velit non, sollicitudin neque. Donec quis aliquet velit convallis purus.",
+      "iconCls": "icon-three",
+      "icon": "/assets/img/icons/quote.svg",
+      "title": "Evelyn Brooks",
+      "designation": "CEO of CreativeMinds"
+    },
+    {
+      "starImg1": "/assets/img/icons/star.svg",
+      "starImg2": "/assets/img/icons/star.svg",
+      "starImg3": "/assets/img/icons/star.svg",
+      "starImg4": "/assets/img/icons/star.svg",
+      "starImg5": "/assets/img/icons/star.svg",
+      "content": "Etiam sed odio dictum, tempus velit non, sollicitudin neque. Donec quis aliquet velit convallis purus.",
+      "iconCls": "icon-four",
+      "icon": "/assets/img/icons/quote.svg",
+      "title": "Liam Mitchell",
+      "designation": "Co-Founder of NexaTech"
+    },
+    {
+      "starImg1": "/assets/img/icons/star.svg",
+      "starImg2": "/assets/img/icons/star.svg",
+      "starImg3": "/assets/img/icons/star.svg",
+      "starImg4": "/assets/img/icons/star.svg",
+      "starImg5": "/assets/img/icons/star.svg",
+      "content": "Etiam sed odio dictum, tempus velit non, sollicitudin neque. Donec quis aliquet velit convallis purus.",
+      "iconCls": "",
+      "icon": "/assets/img/icons/quote.svg",
+      "title": "Olivia Carter",
+      "designation": "Founder of CodeCrafters"
+    },
+    {
+      "starImg1": "/assets/img/icons/star.svg",
+      "starImg2": "/assets/img/icons/star.svg",
+      "starImg3": "/assets/img/icons/star.svg",
+      "starImg4": "/assets/img/icons/star.svg",
+      "starImg5": "/assets/img/icons/star.svg",
+      "content": "Etiam sed odio dictum, tempus velit non, sollicitudin neque. Donec quis aliquet velit convallis purus.",
+      "iconCls": "icon-three",
+      "icon": "/assets/img/icons/quote.svg",
+      "title": "Benjamin Taylor",
+      "designation": "Co-Founder of StrataWorks"
+    }
+  ],
+  "team": [
+    {
+      "id": "1",
+      "img": "/assets/img/team/team-1-img-1.png",
+      "img2": "/assets/img/team/team-2-img-1.png",
+      "name": "Arlene McCoy",
+      "designation": "UX Designer",
+      "cls": "team-member-1"
+    },
+    {
+      "id": "2",
+      "cls": "team-member-2",
+      "img": "/assets/img/team/team-1-img-2.png",
+      "img2": "/assets/img/team/team-2-img-2.png",
+      "name": "Eleanor Pena",
+      "designation": "Product Manager"
+    },
+    {
+      "id": "3",
+      "cls": "team-member-3",
+      "img": "/assets/img/team/team-1-img-3.png",
+      "img2": "/assets/img/team/team-2-img-3.png",
+      "name": "Ken F. Berry",
+      "designation": "Plugin Developer"
+    },
+    {
+      "id": "4",
+      "cls": "team-member-1",
+      "img": "/assets/img/team/team-1-img-4.png",
+      "img2": "/assets/img/team/team-2-img-2.png",
+      "name": "Alextina Tina",
+      "designation": "Laravel Developer"
+    },
+    {
+      "id": "5",
+      "cls": "team-member-2",
+      "img": "/assets/img/team/team-1-img-2.png",
+      "img2": "/assets/img/team/team-2-img-3.png",
+      "name": "Eleanor Pena",
+      "designation": "Product Manager"
+    },
+    {
+      "id": "6",
+      "cls": "team-member-3",
+      "img": "/assets/img/team/team-1-img-3.png",
+      "img2": "/assets/img/team/team-2-img-2.png",
+      "name": "Ken F. Berry",
+      "designation": "Plugin Developer"
+    }
+  ],
+  "teampage": {
+    "pageheader": {
+      "title": "MEMBE",
+      "subtitle": "creative team",
+      "content": "We’re a diverse team that works as fancies attention to details, enjoys beers on Friday nights and aspires to design the dent in the universe"
+    },
+    "btn": "Join our talented team",
+    "bannerImg": "assets/img/team/team-inner-banner.png",
+    "counter": {
+      "title": "Your digital products & services ensured by our talented team",
+      "content": "A hybrid team with hybrid culture. More than 20 people, including designers, engineers, creatives, thinkers, creative table and media experts always looking from a new perspective.",
+      "counters": [
+        {
+          "title": "Project completed",
+          "value": "25",
+          "unit": "k"
+        },
+        {
+          "title": "Happy customers",
+          "value": "8",
+          "unit": "k"
+        },
+        {
+          "title": "Years experiences",
+          "value": "15",
+          "unit": ""
+        },
+        {
+          "title": "Awards achievement",
+          "value": "98",
+          "unit": ""
+        }
+      ]
+    }
+  },
+  "blogpage": {
+    "title": "ARTICL",
+    "subtitle": "We always think",
+    "content": "Crafting new bright brands, unique visual systems and digital experience focused on a wide range of original collabs."
+  },
+  "blog": [
+    {
+      "id": "1",
+      "date": "03 Aug 2022",
+      "title": "The Power of Intuitive UI/UX in Design",
+      "imghover": "/assets/img/blog/blog-1-img-1.png",
+      "img": "/assets/img/blog/blog-img-1.png",
+      "postby": "UI Design . ",
+      "postbylink": "#",
+      "postby2": "Application",
+      "title2": "Consulting Industry adapts to the changing business.",
+      "img2": "/assets/img/blog/blog-3-img-1.png",
+      "btn": "Read More"
+    },
+    {
+      "id": "2",
+      "date": "05 Aug 2022",
+      "title": "Staying ahead of the curve in the digital world",
+      "img": "/assets/img/blog/blog-img-2.png",
+      "imghover": "/assets/img/blog/blog-1-img-1.png",
+      "postby": "UI Design . ",
+      "postby2": "Application",
+      "title2": "Consulting Industry adapts to the changing business.",
+      "img2": "/assets/img/blog/blog-3-img-2.png",
+      "postbylink": "#",
+      "btn": "Read More"
+    },
+    {
+      "id": "3",
+      "date": "07 Aug 2022",
+      "title": "What you need to know for success online",
+      "imghover": "/assets/img/blog/blog-1-img-1.png",
+      "img": "/assets/img/blog/blog-img-3.png",
+      "postby": "UI Design . ",
+      "postbylink": "#",
+      "postby2": "Application",
+      "title2": "Consulting Industry adapts to the changing business.",
+      "img2": "/assets/img/blog/blog-3-img-3.png",
+      "btn": "Read More"
+    },
+    {
+      "id": "4",
+      "date": "09 Aug 2022",
+      "title": "What you need to know for success online",
+      "imghover": "/assets/img/blog/blog-1-img-1.png",
+      "img": "/assets/img/blog/blog-img-4.png",
+      "postby": "UI Design . ",
+      "postbylink": "#",
+      "btn": "Read More"
+    },
+    {
+      "id": "5",
+      "date": "07 Aug 2022",
+      "title": "What you need to know for success online",
+      "imghover": "/assets/img/blog/blog-1-img-1.png",
+      "img": "/assets/img/blog/blog-img-5.png",
+      "postby": "UI Design . ",
+      "postbylink": "#",
+      "btn": "Read More"
+    },
+    {
+      "id": "6",
+      "date": "09 Aug 2022",
+      "title": "What you need to know for success online",
+      "imghover": "/assets/img/blog/blog-1-img-1.png",
+      "img": "/assets/img/blog/blog-img-6.png",
+      "postby": "UI Design . ",
+      "postbylink": "#",
+      "btn": "Read More"
+    }
+  ],
+  "blogdetails": [
+    {
+      "id": "1",
+      "pageheader_title": "ARTICL",
+      "pageheader_subtitle": "Donate your design for newest designers to try better",
+      "pageheader_content": "UI Design. 15 March 2019",
+      "writer_info_img": "/assets/img/blog/blog-writer.png",
+      "writer_info_writenby": "Writen by",
+      "writer_info_title1": "Codexpant",
+      "writer_info_viewed": "Viewed",
+      "writer_info_title2": "3 min read",
+      "bannerImg1": "/assets/img/blog/blog-details-banner.png",
+      "bannerImg2": "/assets/img/blog/blog-inner-img-1.png",
+      "bannerImg3": "/assets/img/blog/blog-inner-img-2.png",
+      "bannerImg4": "/assets/img/blog/blog-inner-img-3.png",
+      "headingTitle1": "JavaScript",
+      "headingTitle2": "Fremework",
+      "headingTitle3": "Visual Studio",
+      "headingTitle4": "Related Aricles",
+      "content1": "We love to bring designs to life as a developer, and I aim to do this using whatever front end tools are necessary. My preferred tools are more modern javascript libraries like React.js but I like to use whatever is best for the websites needs. There are several reasons why a business would consider a rebrand and it doesn’t necessarily mean the business has been unsuccessful.",
+      "content2": "But in order that you may see whence all this born error of those who accuse pleasure and praise pain, I will open the whole matter, and explain the very things which were said by that discoverer of truth and, as it were, the architect of a happy life.",
+      "content3": "Just like other pseudo-elements and pseudo-class selectors, :not() can be chained with other pseudo-classes and pseudo-elements. For example, the following will add a “New!” word to list items that do not have a .old class name, using the ::after pseudo-element:",
+      "content4": "Tags: design, figma, update",
+      "list": [
+        "Brand Development",
+        "UX/UI Design",
+        "Front-end Development",
+        "Copywriting",
+        "Shopify Development"
+      ]
+    }
+  ],
+  "calltoAction": {
+    "title": "Let’s talk about a project, collaboration or an idea you may have",
+    "content": "We design exceptional brands, products, web apps, mobile apps, websites for startups and enterprises.",
+    "btn": "Let's Talk With Us"
+  },
+  "portfolio": [
+    {
+      "id": "pageheader",
+      "title": "PROJEC",
+      "subtitle": "FEATURE PROJECTS",
+      "content": "View the full case study of our recent featured and awesome works that we created for our clients."
+    },
+    {
+      "id": "project",
+      "projects": [
+        {
+          "id": "1",
+          "img": "/assets/img/portfolio/portfolio-img-1.png",
+          "title": "Portrait Of Adult Male Working From Home At Night",
+          "btn": "View Full Project"
+        },
+        {
+          "id": "2",
+          "img": "/assets/img/portfolio/portfolio-img-2.png",
+          "title": "Portrait Of Adult Male Working From Home At Night",
+          "btn": "View Full Project"
+        },
+        {
+          "id": "3",
+          "img": "/assets/img/portfolio/portfolio-img-3.png",
+          "title": "Portrait Of Adult Male Working From Home At Night",
+          "btn": "View Full Project"
+        },
+        {
+          "id": "4",
+          "img": "/assets/img/portfolio/portfolio-img-4.png",
+          "title": "Portrait Of Adult Male Working From Home At Night",
+          "btn": "View Full Project"
+        },
+        {
+          "id": "5",
+          "img": "/assets/img/portfolio/portfolio-img-5.png",
+          "title": "Portrait Of Adult Male Working From Home At Night",
+          "btn": "View Full Project"
+        },
+        {
+          "id": "6",
+          "img": "/assets/img/portfolio/portfolio-img-6.png",
+          "title": "Portrait Of Adult Male Working From Home At Night",
+          "btn": "View Full Project"
+        },
+        {
+          "id": "7",
+          "img": "/assets/img/portfolio/portfolio-img-7.png",
+          "title": "Portrait Of Adult Male Working From Home At Night",
+          "btn": "View Full Project"
+        },
+        {
+          "id": "8",
+          "img": "/assets/img/portfolio/portfolio-img-8.png",
+          "title": "Portrait Of Adult Male Working From Home At Night",
+          "btn": "View Full Project"
+        },
+        {
+          "id": "9",
+          "img": "/assets/img/portfolio/portfolio-img-9.png",
+          "title": "Portrait Of Adult Male Working From Home At Night",
+          "btn": "View Full Project"
+        }
+      ]
+    }
+  ],
+  "portfoliodetails": [
+    {
+      "id": "1",
+      "pageheader_title": "PROJEC",
+      "pageheader_subtitle": "REBRAND AGENCY",
+      "pageheader_projectlist": [
+        {
+          "subtitle": "Category",
+          "title": "Development"
+        },
+        {
+          "subtitle": "Client",
+          "title": "Webflow"
+        },
+        {
+          "subtitle": "Start Date",
+          "title": "23 January 2021"
+        },
+        {
+          "subtitle": "Handover",
+          "title": "05 March 2021"
+        }
+      ],
+      "bannerImg": "/assets/img/portfolio/portfolio-details-banner.png",
+      "bannerVideo": "https://www.youtube.com/watch?v=PkkV1vLHUvQ",
+      "bannerbtn": "Play",
+      "headingTitle1": "Build, streamline and evolve together with solution",
+      "headingTitle2": "Visual and typograpy hierarchy",
+      "headingTitle3": "Related Projects",
+      "innerbannerImg": "/assets/img/portfolio/portfolio-details-inner-banner.png",
+      "letterImg": "/assets/img/portfolio/portfolio-letter.svg",
+      "innerImg1": "/assets/img/portfolio/portfolio-details-inner-img-1.png",
+      "innerImg2": "/assets/img/portfolio/portfolio-details-inner-img-2.png",
+      "innerImg3": "/assets/img/portfolio/portfolio-details-inner-img-3.png",
+      "innerImg4": "/assets/img/portfolio/portfolio-details-inner-img-4.png",
+      "list": [
+        "Brand Development",
+        "UX/UI Design",
+        "Front-end Development",
+        "Copywriting",
+        "Shopify Development"
+      ],
+      "list2": [
+        {
+          "text1": "Regular",
+          "text2": "This Is Text Message"
+        },
+        {
+          "text1": "Medium",
+          "text2": "Medium Typography"
+        },
+        {
+          "text1": "SemiBold",
+          "text2": "Just Amazing"
+        },
+        {
+          "text1": "Blod",
+          "text2": "Awesome"
+        }
+      ],
+      "content1": "We love to bring designs to life as a developer, and I aim to do this using whatever front end tools are necessary. My preferred tools are more modern javascript libraries like React.js but I like to use whatever is best for the websites needs. There are several reasons why a business would consider a rebrand and it doesn’t necessarily mean the business has been unsuccessful.",
+      "content2": "Visual hierarchy is the principle of arranging elements to show their order of importance. Designers structure visual characteristics—e.g., menu icons—so users can understand information easily. By laying out elements logically and strategically, designers influence users’ perceptions and guide them to desired actions. Users notice larger elements more easily can convert.",
+      "content3": "For those of us who are blessed with good sight. So we seldom consider it. That’s why going off to investigate the whys and hows involved is a little like trying to get behind the wind"
+    }
+  ],
+  "contact": {
+    "title": "Conta",
+    "subtitle": "CONTACT DIGISO",
+    "content": "Nunc nec semper arcu, id malesuada est. Integer sodales, magna ac porta ultricies, tortor sapien malesuada dui, sit amet vestibulum magna dui et odio. Donec eu urna vitae orci lacinia malesuada. Duis convallis nunc mi, eu euismod velit cursus vitae. Cras egestas quis dui a dignissim. Nunc ultricies mi quis tristique dapibus.",
+    "socal_icon": [
+      {
+        "img": "/assets/img/icons/contact-icon-1.svg",
+        "link": "#"
+      },
+      {
+        "img": "/assets/img/icons/contact-icon-2.svg",
+        "link": "#"
+      },
+      {
+        "img": "/assets/img/icons/contact-icon-3.svg",
+        "link": "#"
+      },
+      {
+        "img": "/assets/img/icons/contact-icon-4.svg",
+        "link": "#"
+      }
+    ],
+    "contactinfo": [
+      {
+        "contact": " +05 (9900) 854 93",
+        "contactlink": "tel:+05(9900)85493",
+        "icon": "+"
+      },
+      {
+        "contact": "info@rebrandexample.com",
+        "contactlink": "mailto:info@rebrandexample.com",
+        "icon": "+"
+      },
+      {
+        "contact": "Nandipara, Road 6, Dhaka - 1214",
+        "contactlink": "#",
+        "icon": "+"
+      }
+    ],
+    "formtitle": "Contact Us",
+    "btn": "Submit Now"
+  },
+  "pricingpage": [
+    {
+      "id": "pageheader",
+      "title": "Pricin",
+      "subtitle": "We Are A Digital Agency For Visually Compelling Careers Stories Digiso.",
+      "content": "We’re a diverse team that works as fancies attention to details, enjoys beers on Friday nights and aspires to design the dent in the universe.",
+      "video_section_video": "https://www.youtube.com/watch?v=PkkV1vLHUvQ",
+      "video_section_img": "/assets/img/images/video-image2.png",
+      "video_section_btn": "Play"
+    },
+    {
+      "id": "pricing",
+      "pricings": [
+        {
+          "id": "1",
+          "pricing_title": "Regular Plan",
+          "package_title": "Monthly Package",
+          "price": "$0.96",
+          "oldprice": " / $1.96",
+          "list": [
+            {
+              "icon": "+",
+              "title": "12 Hours Access"
+            },
+            {
+              "icon": "+",
+              "title": "Meeting Room $2/Per hour"
+            },
+            {
+              "icon": "+",
+              "title": "Marketing Consultations"
+            }
+          ],
+          "btn": "Get Started",
+          "btn_link": "#"
+        },
+        {
+          "id": "2",
+          "active": "active",
+          "pricing_title": "Advance Plan",
+          "package_title": "Monthly Package",
+          "price": "$3.96",
+          "oldprice": " / $2.96",
+          "list": [
+            {
+              "icon": "+",
+              "title": "12 Hours Access"
+            },
+            {
+              "icon": "+",
+              "title": "Meeting Room $2/Per hour"
+            },
+            {
+              "icon": "+",
+              "title": "Marketing Consultations"
+            }
+          ],
+          "btn": "Get Started",
+          "btn_link": "#"
+        },
+        {
+          "id": "3",
+          "pricing_title": "Ultimate Plan",
+          "package_title": "Monthly Package",
+          "price": "$5.96",
+          "oldprice": "/ $3.96",
+          "list": [
+            {
+              "icon": "+",
+              "title": "12 Hours Access"
+            },
+            {
+              "icon": "+",
+              "title": "Meeting Room $2/Per hour"
+            },
+            {
+              "icon": "+",
+              "title": "Marketing Consultations"
+            }
+          ],
+          "btn": "Get Started",
+          "btn_link": "#"
+        }
+      ]
+    }
+  ],
+  "career": {
+    "pagetitle": "MEMBE",
+    "pagesubtitleLine1": "Join our team & ",
+    "pagesubtitleLine2": "let’s work together",
+    "btn": "Join our talented team",
+    "bannerImg": "/assets/img/career/career-banner-1.png",
+    "infoList": [
+      "Future",
+      "Community",
+      "Honor"
+    ],
+    "infoContent": "What sets us apart is what brings us together – a shared passion for solving business challenges through strategy, design, and engineering. We are the sum total of our team, their unique perspectives, capabilities, and our ability to collaborate from ideation to deployment.",
+    "innerImg": [
+      {
+        "cls": "col-md-8",
+        "img": "/assets/img/career/career-inner-image-1.png"
+      },
+      {
+        "cls": "col-md-4",
+        "img": "/assets/img/career/career-inner-image-2.png"
+      },
+      {
+        "cls": "col-md-4",
+        "img": "/assets/img/career/career-inner-image-3.png"
+      },
+      {
+        "cls": "col-md-8",
+        "img": "/assets/img/career/career-inner-image-4.png"
+      }
+    ],
+    "vacancyTitle": "We’re Currently hiring",
+    "vacancyItem": [
+      {
+        "id": "1",
+        "num": "01",
+        "subject": "UI/UX Designer",
+        "position": "(02 Open Roles)",
+        "btn": "View Details"
+      },
+      {
+        "id": "2",
+        "num": "02",
+        "subject": "Frontend Developer",
+        "position": "(07 Open Roles)",
+        "btn": "View Details"
+      },
+      {
+        "id": "3",
+        "num": "03",
+        "subject": "Product Manager",
+        "position": "(15 Open Roles)",
+        "btn": "View Details"
+      },
+      {
+        "id": "4",
+        "num": "04",
+        "subject": "JavaScript Engineer",
+        "position": "(03 Open Roles)",
+        "btn": "View Details"
+      }
+    ],
+    "benifits_item": [
+      "Vacation & Paid Time Off",
+      "Work-life Integration",
+      "Paternity Benefits",
+      "Personal Career Growth",
+      "Learning & Development",
+      "Healthy Food & Snacks"
+    ],
+    "benifits_title": "Global Perks & Benefits",
+    "benifits_content": "We want you to love working here as much as we do. To inspire our team to be creative, productive, and most importantly – feel valued as employees, we offer endless perks and de-stressors. How fun it is to unwind while at work!"
+  },
+  "careerdetails": [
+    {
+      "id": "1",
+      "pagesubtitle": "CONTENT WRITER",
+      "pagetitle": "MEMBE",
+      "headercontent": "We’re a diverse team that works as fancies attention to details, enjoys beers on Friday nights and aspires to design the dent in the universe.",
+      "bannerImg": "/assets/img/career/career-banner-2.png",
+      "infoItem": [
+        {
+          "subtitle": "Location:",
+          "title": "Mirpur 12, Block C, Dhaka, BD.",
+          "subtitle2": "Experience:",
+          "title2": "03+ Years Experience"
+        },
+        {
+          "subtitle": "Date:",
+          "title": "02 August 2024",
+          "subtitle2": "Working Hours:",
+          "title2": "10 AM to 06 PM"
+        },
+        {
+          "subtitle": "Job Type:",
+          "title": "Full Time (Remote)",
+          "subtitle2": "Working Days:",
+          "title2": "Weekly 5 days (Sun to Thur)"
+        },
+        {
+          "subtitle": "Vacancy:",
+          "title": "No of Vacancies: 05",
+          "subtitle2": "Salary:",
+          "title2": "$1k - $1.5k (Monthly)"
+        }
+      ],
+      "description_title": "Join the world’s biggest family.",
+      "description_subtitle": "CAREERS",
+      "description1": "Maecenas at metus nec risus porttitor efficitur. Aliquam erat volutpat. Sed laoreet tellus in est pharetra, dictum tempus tortor dignissim. Vestibulum nec lacus a velit volutpat varius. Quisque ex enim, ornare ac libero quis, porttitor molestie neque. Ut vel interdum nunc, id malesuada lacus. Phasellus aliquet dui eu hendrerit eleifend. Etiam vehicula, risus vitae ultrices interdum, massa felis eleifend enim, sit amet scelerisque arcu ligula quis est. Donec id est congue, fringilla massa ac, tincidunt massa. Etiam ullamcorper, nulla vel eleifend pretium, quam orci auctor libero, eget feugiat magna metus at quam. Cras vehicula vel erat ut sodales. Sed ac magna sit amet metus sollicitudin viverra non id metus. Duis gravida placerat metus. Mauris a est at nibh dictum consequat. Phasellus pharetra mollis lacus et lobortis.",
+      "description2": "Mauris auctor nulla ut nisl rutrum fermentum. Suspendse consectetur turpis nec ligula iaculis dapibus. Pellentesue iaculis purus at nibh gravida condimentum. Suspendisse faucibus eros congue turpis vulputate interdum. Donec pellentesque lacus et erat posuere pharetra. Tfaucibus, odio nec condimentum egestas, sem ipsum sagittis ligula, eget cursus lorem mauris quis nisi.",
+      "innerImg": "/assets/img/career/career-details-inner-img.png",
+      "inner_title1": "Additional Requirements",
+      "requirements1": [
+        "Masters with Honors in Accounting from Public, Private or National University",
+        "Qualified Chartered Accountant or Cost & Management Accountant",
+        "At least 10 years’ experience, preferably in any manufacturing industry",
+        "At least 3 years’ experience as head of Accounts and Finance department",
+        "Experience of RMG sector will get preference."
+      ],
+      "requirements2": [
+        "To direct day-to-day operations and activities of department",
+        "To manage compliance with accounting standards & regulations",
+        "To be responsible for presenting profitability analysis, product pricing, costing, budgeting etc. to the management",
+        "To ensure proper maintenance of Accounts records & Software and related all documents.",
+        "To manage regular calculation of Taxes, Customs Duty, statutory returns and Tax, VAT compliance.",
+        "To prepare and present various statements and reports",
+        "To perform other relevant duties assigned by management",
+        "To supervise Inventory Balance",
+        "To direct day-to-day operations and activities of department",
+        "To manage compliance with accounting standards & regulations",
+        "To be responsible for presenting profitability analysis, product pricing, costing, budgeting etc. to the management",
+        "To ensure proper maintenance of Accounts records & Software and related all documents.",
+        "To manage regular calculation of Taxes, Customs Duty, statutory returns and Tax, VAT compliance.",
+        "To prepare and present various statements and reports",
+        "To perform other relevant duties assigned by management",
+        "To supervise Inventory Balance"
+      ],
+      "inner_title2": "Additional Requirements",
+      "inner_title3": "Email your CV",
+      "email_text": "Send your CV to the given email : ",
+      "email": "themehullio@mail.com",
+      "email_link": "mailto:themehullio@mail.com",
+      "applynow": "Apply Position",
+      "formlabel": "Upload CV*",
+      "formbtn": "Submit Now"
+    }
+  ],
+  "workwithus": {
+    "title": "We would love to hear more about your project",
+    "subtitle": "WORK WITH US",
+    "letstalkus": "Let’s Talk With Us"
+  },
+  "subsrcibenow": {
+    "logo": "/assets/img/logo/logo2.svg",
+    "title": "Subscribe Now",
+    "label": "Your Mail",
+    "btn": "/assets/img/icons/icon-up-right-3.svg"
+  },
+  "footer": {
+    "logo": "/assets/img/logo/logo.svg",
+    "logo2": "/assets/img/logo/logo2.svg",
+    "title1": "Pages",
+    "title2": "CMS",
+    "title3": "Branding Agency",
+    "title4": "Contact Us",
+    "content": "3F Mitaka Takagi Building, Musashino-shi,80-0006 Japan",
+    "content2": "Valentin, Street Road 24, New York, USA - 67452",
+    "content3": "#REBRAND",
+    "contact1": "+02) 574 - 328 - 301",
+    "contact1link": "tel:+02574-328-301",
+    "contact2": "info@rebrandexample.com",
+    "contact2link": "mailto:info@rebrandexample.com",
+    "pages": [
+      {
+        "title": "Home",
+        "link": "/home1"
+      },
+      {
+        "title": "Services",
+        "link": "/service"
+      },
+      {
+        "title": "Portfolio",
+        "link": "/portfolio"
+      },
+      {
+        "title": "Contact",
+        "link": "/contact"
+      }
+    ],
+    "cms": [
+      {
+        "title": "Integration",
+        "link": "#"
+      },
+      {
+        "title": "Customers",
+        "link": "#"
+      },
+      {
+        "title": "Case Studies",
+        "link": "#"
+      },
+      {
+        "title": "Our Blog",
+        "link": "/blog"
+      },
+      {
+        "title": "Careers",
+        "link": "/career"
+      }
+    ],
+    "socal_icon": [
+      {
+        "img": "/assets/img/icons/footer-icon-1.svg",
+        "link": "#"
+      },
+      {
+        "img": "/assets/img/icons/footer-icon-2.svg",
+        "link": "#"
+      },
+      {
+        "img": "/assets/img/icons/footer-icon-3.svg",
+        "link": "#"
+      }
+    ],
+    "copyright_text": "All Right Reserved © 2024 Digiso",
+    "rebrand_title": "REBANDE"
+  },
+  "error": {
+    "pagetitle": "ERROR",
+    "title": "404",
+    "subtitle": "Sorry! page did not found",
+    "subtitle2": "Sorry! Something went wrong",
+    "content": "The page you are looking for doesn't exist or has been moved",
+    "icon": "/assets/img/icons/icon-up-right.svg",
+    "btn": "back to homepage",
+    "btn2": "Try again"
+  }
+}

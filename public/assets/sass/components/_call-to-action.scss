@@ -1,0 +1,75 @@
+/*=============================
+	20. Call to action CSS start
+===============================*/
+
+.call-to-action-section {
+  z-index: 9;
+  .main {
+    background-color: var(--bs-bg-color2);
+    border-radius: 24px 0px;
+    padding: 95px 79px 74px 73px;
+    margin-top: 118px;
+
+    .title {
+      color: var(--bs-white);
+      font-family: var(--bs-font-secondary);
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 136%;
+      max-width: 605px;
+    }
+
+    .cta-short-info {
+      max-width: 331px;
+
+      p {
+        color: var(--bs-text-color23);
+        margin-bottom: 33px;
+      }
+    }
+  }
+}
+
+@media (max-width:1199.98px) {
+  .call-to-action-section .main {
+    padding: 60px 40px 60px 40px;
+  }
+}
+
+@media (max-width:991.98px) {
+  .call-to-action-section .main {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .call-to-action-section .main .cta-short-info {
+    max-width: 100%;
+  }
+
+  .call-to-action-section .main {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width:767.98px) {
+  .call-to-action-section .main {
+    margin-top: 80px;
+  }
+
+  .call-to-action-section .main .title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width:575.98px) {
+  .call-to-action-section .main {
+    padding: 30px 24px;
+  }
+
+  .call-to-action-section .main .title {
+    font-size: 26px;
+    line-height: 130%;
+    margin-bottom: 12px;
+  }
+}

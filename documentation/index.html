@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth">
+
+<head>
+  <title>Digiso Documentation </title>
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <!-- VENDOR CSS -->
+  <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./assets/vendor/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./assets/vendor/animate-css/vivify.min.css" />
+
+  <link rel="stylesheet" href="./assets/vendor/light-gallery/css/lightgallery.css" />
+
+  <!-- JSTree (Folder Stewart) -->
+  <link rel="stylesheet" href="./assets/vendor/jstree/dist/themes/default/style.min.css">
+
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="./assets/css/site.min.css" />
+  <link rel="stylesheet" href="./assets/css/custom.css" />
+
+  <!-- for demo only -->
+  <style>
+    .card .body {
+      font-size: 15px;
+    }
+
+    .main_features li {
+      padding: 5px 0;
+    }
+
+    .prettyprint {
+      color: #ffffff;
+    }
+
+    #Credits li {
+      line-height: 30px;
+    }
+
+    .lightGallery img {
+      border: 1px solid #484a4e;
+    }
+
+    .sm-logo {
+      width: 25px;
+    }
+
+    #main-content {
+      padding: 1rem;
+      box-sizing: border-box;
+    }
+
+    div#wrapper {
+      overflow: hidden;
+    }
+
+    code {
+      color: white;
+      background: green;
+      padding: 5px;
+      border-radius: 10px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body class="theme-green font-krub light_version">
+
+  <div id="wrapper">
+    <nav class="navbar top-navbar">
+      <div class="container-fluid">
+        <div class="navbar-left">
+          <div class="navbar-btn">
+            <!-- <strong>Uinaa</strong> -->
+            <button type="button" class="btn-toggle-offcanvas">
+              <i class="lnr lnr-menu fa fa-bars"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div>
+    </nav>
+
+    <div id="left-sidebar" class="sidebar">
+      <div class="navbar-brand">
+        <strong>Digiso</strong>
+        <button type="button" class="btn-toggle-offcanvas btn btn-sm float-right">
+          <i class="lnr lnr-menu fa fa-chevron-circle-left"></i>
+        </button>
+      </div>
+      <div class="sidebar-scroll">
+        <nav id="left-sidebar-nav" class="sidebar-nav">
+          <ul id="main-menu" class="metismenu">
+            <li class="active">
+              <a href="#documenter_cover"><i class="icon-home"></i><span>Start</span></a>
+            </li>
+            <li>
+              <a href="#features"><i class="icon-star"></i><span>Features</span></a>
+            </li>
+            <li>
+              <a href="#react_js"><i class="icon-tag"></i><span>React.js</span></a>
+            </li>
+            <!-- <li>
+              <a href="#main_content"><i class="icon-arrow-right"></i><span>Main Content</span></a>
+            </li> -->
+            <li>
+              <a href="#create_page"><i class="icon-plus"></i><span>Create a Page</span></a>
+            </li>
+            <li>
+              <a href="#folder_structure"><i class="icon-folder-alt"></i><span>Folder Structure</span></a>
+            </li>
+            <!-- <li>
+              <a href="#Credits"><i class="icon-like"></i><span>Credits</span></a>
+            </li> -->
+            <li>
+              <a href="#layout"><i class="icon-star"></i><span>Layout</span></a>
+            </li>
+
+            <li>
+              <a href="#thank_you"><i class="icon-heart"></i><span>THANK YOU!</span></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div id="main-content">
+      <div class="container-fluid">
+        <div class="row clearfix">
+          <div class="col-sm-12">
+            <div class="card" id="documenter_cover">
+              <div class="body">
+                <h1 class="mb-3">
+                  <strong> Digiso – Digital Business Branding Agency React Template </strong>
+                </h1>
+                <p>
+                  Digiso – Agency React Template is a premium solution tailored for businesses in the SEO, digital
+                  marketing, web development, and creative sectors. Designed with modern aesthetics and functionality in
+                  mind, Digiso offers a clean, professional, and highly attractive platform to showcase your services.
+                  Whether you’re focusing on SEO audit services, keyword research, social media marketing, or digital
+                  studio projects, Digiso provides the perfect foundation to highlight your expertise and captivate your
+                  audience.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <div class="card" id="features">
+              <div class="header">
+                <h2>Main Features</h2>
+              </div>
+              <div class="body">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6">
+                    <ul class="main_features">
+                      <li>Develop with <a href="https://react.dev/learn" target="_blank">React Js</a> and <a
+                          href="https://nextjs.org/docs">Next js</a></li>
+
+                      <li>16 Unique Pages</li>
+                      <li>3 Home Page Layouts</li>
+                      <li>Clean and Modern UI</li>
+                      <li>Fully Responsive</li>
+                      <li>Customizable React Components</li>
+                      <li>CSS framework
+                        <!-- <a href="https://tailwindcss.com/docs" target="_blank">Tailwind</a> -->
+                        <a href="https://getbootstrap.com/docs" target="_blank">Bootstrap</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12">
+            <div class="card" id="react_js">
+              <div class="header">
+                <h2>
+                  React.JS Installation & Setup
+                  <small>A JavaScript library for building user interfaces.</small>
+                </h2>
+              </div>
+              <div class="body">
+                <p>
+                  <strong>Installing</strong><br />
+                <p>Make sure if <code>NODEJS</code> is installed on your computer</p>
+                <p>
+                  <strong>Install npm :-</strong><br /> Run
+                  <code>npm install</code> command from your project
+                  directory. It will create 'node_module' folder in this all
+                  dependency files will be install with this command.
+                </p>
+                <p>
+                  <strong>Run Project :-</strong><br /> Run
+                  <code>npm run dev</code> command from your project directory.
+                  With is command file will be compiled and it will be loaded
+                  on local server `http://localhost:3000`.
+                </p>
+                <p>
+                  <strong>Run Json-server :-</strong><br /> Run
+                  <code>npm run json</code> command from your project directory.
+                  With is command file will be compiled and it will be loaded
+                  on local server `http://localhost:4000`.
+                </p>
+                <p>
+                  <strong>Production Build :-</strong><br /> Run
+                  <code>npm run build</code> Builds the app for production to
+                  the `build` folder. It correctly bundles React in production
+                  mode and optimizes the build for the best performance.
+                </p>
+                <p>
+                  <strong>Further help :-</strong><br /> To get more help on the
+                  react js checkout
+                  <a href="https://react.dev/learn">react js</a> and <a href="https://nextjs.org/docs">Next js</a>
+                </p>
+                <p>
+                  <strong>Note:</strong>
+                  To learn React, check out the
+                  <a href="https://react.dev/learn">React Documentation</a> and <a href="https://nextjs.org/docs">Next
+                    Documentation</a>.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <div class="card" id="create_page">
+              <div class="header">
+                <h2>Create a Page<h5>How to create a custom page</h5>
+                </h2>
+              </div>
+              <div class="body">
+                <p>1. Create page component <code>about/page.js</code></p>
+                <pre class="prettyprint lang-html linenums">
+                  import React from "react";
+
+                  export function About() {
+                    return(
+                    &lt;h1&gt;Hello!&lt;/h1&gt;
+                    ) 
+                  } 							
+						    </pre>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <div class="card" id="folder_structure">
+              <div class="header">
+                <h2>Folder Structure</h2>
+              </div>
+              <h5>Folder Directories</h5>
+              <div class="body">
+                <!-- Folder Directories -->
+                <section class="app-brief">
+                  <div class="left-align">
+                    <div class="section-header">
+                      <!-- <h2 class="dark-text">Folder Directories - </h2> -->
+                    </div>
+                    <div id="dz_tree" class="tree-demo">
+                      <ul>
+                        <li data-jstree='{ "opened" : true }'>app
+                          <ul>
+                            <li data-jstree='{ "opened" : true }'>about
+                              <ul>
+                                <li data-jstree='{ "type" : "file" }'>page.js</li>
+                              </ul>
+                            </li>
+                            <li data-jstree='{ "opened" : true }'>blogs
+                              <ul>
+                                <li data-jstree='{ "type" : "file" }'>page.js</li>
+                              </ul>
+                            </li>
+                            <li data-jstree='{ "opened" : true }'>components
+                              <ul>
+                                <li data-jstree='{ "type" : "file" }'>Footer.jsx</li>
+                                <li data-jstree='{ "type" : "file" }'>Header.jsx</li>
+                                <li data-jstree='{ "type" : "file" }'>....</li>
+                              </ul>
+                            </li>
+                            <li data-jstree='{ "type" : "file" }'>layout.js</li>
+                            <li data-jstree='{ "type" : "file" }'>loading.js</li>
+                            <li data-jstree='{ "type" : "file" }'>not-found.js</li>
+                            <li data-jstree='{ "type" : "file" }'>page.js</li>
+                          </ul>
+
+                        </li>
+                        <li data-jstree='{ "opened" : true }'>public
+                          <ul>
+                            <li data-jstree='{ "opened" : true }'>assets
+                              <ul>
+                                <li data-jstree='{ "selected" : false }'>css</li>
+                                <li data-jstree='{ "selected" : false }'>scss</li>
+                                <li data-jstree='{ "selected" : false }'>js</li>
+                                <li data-jstree='{ "selected" : false }'>fonts</li>
+                                <li data-jstree='{ "selected" : false }'>images</li>
+                              </ul>
+                            </li>
+
+                          </ul>
+                        </li>
+                        <li data-jstree='{ "opened" : true }'>getData
+                          <ul>
+                            <li data-jstree='{ "type" : "file" }'>getData.js</li>
+                          </ul>
+                        </li>
+                        <li data-jstree='{ "type" : "file" }'>db.json</li>
+                        <li data-jstree='{ "type" : "file" }'>package.json</li>
+                      </ul>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12" id="layout">
+            <div class="card">
+              <div class="header">
+                <h2>Layout
+                  <small>Layout is controlled by settings object LayoutSettings inside
+                    src/App.jsx</small>
+                </h2>
+              </div>
+              <div class="body">
+                <p>
+                  <strong>layout.js</strong>
+                </p>
+                <pre>
+                  //Include css file
+                  import "./globals.css";
+                  import "@/public/assets/css/bootstrap.min.css";
+                  import "@/public/assets/fontawsome/css/all.min.css";
+                  import "@/public/assets/fontawsome/css/fontawesome.min.css";
+                  import "@/public/assets/css/slick.css";
+                  import "@/public/assets/css/magnific-popup.css";
+                  import "@/public/assets/css/animate.min.css";
+                  import 'animate.css';
+                  import "@/public/assets/css/odometer.css";
+                  import "@/public/assets/sass/style.scss";
+                  //Include css file
+                  import "@/public/assets/js/gsap.js";
+                  import "@/public/assets/js/gsap-scroll-trigger.js";
+                  import "@/public/assets/js/gsap-split-text.js";
+                  import "@/public/assets/js/script.js";
+                  //landing js file
+                  import "@/public/landing/assets/js/type.js";
+                  import "@/public/landing/assets/js/main.js";
+                  //Include component
+                  import BacktoTop from "./components/BacktoTop";
+                  import CHeader from "./components/CHeader";
+                  
+                  export const metadata = {
+                    title: "Digiso - Digital Business Branding Agency React Template",
+                    description: "Digiso",
+                    
+                  };
+                  
+                  export default function RootLayout({ children }) {
+                    return (
+                      &lt;html>
+                        &lt;body>
+                          &lt;div>
+                          &lt;BacktoTop&lt;/>
+                          {children}
+                          &lt;/div>
+                        &lt;body/>
+                      &lt;html/>
+                    );
+                  }
+                  export default App
+                </pre>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <div class="card" id="thank_you">
+              <div class="body text-center  ">
+                <strong class="font-40">Thank You!</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Javascript -->
+  <script src="./assets/bundles/libscripts.bundle.js"></script>
+  <script src="./assets/bundles/vendorscripts.bundle.js"></script>
+
+  <script src="./assets/bundles/lightgallery.bundle.js"></script>
+  <!-- Light Gallery Plugin Js -->
+
+  <script src="./assets/bundles/mainscripts.bundle.js"></script>
+
+  <!-- Folder onClick -->
+  <script src="./assets/vendor/jstree/dist/jstree.min.js"></script>
+
+  <script>
+    // prettyPhoto
+    jQuery(document).ready(function () {
+
+      $(".full-height").css("height", $(window).height());
+
+      $("#dz_tree").jstree({
+        "core": {
+          "themes": {
+            "responsive": false
+          }
+        },
+        "types": {
+          "default": {
+            "icon": "fa fa-folder"
+          },
+          "file": {
+            "icon": "fa fa-file-text"
+          }
+        },
+        "plugins": ["types"]
+      });
+      $("#dz_tree_1").jstree({
+        "core": {
+          "themes": {
+            "responsive": false
+          }
+        },
+        "types": {
+          "default": {
+            "icon": "fa fa-folder"
+          },
+          "file": {
+            "icon": "fa fa-file-text"
+          }
+        },
+        "plugins": ["types"]
+      });
+    });
+  </script>
+</body>
+
+</html>

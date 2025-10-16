@@ -1,0 +1,97 @@
+/*=============================
+	30. Error 404 page CSS start
+===============================*/
+.error-section {
+  padding-top: 274px;
+
+  .title {
+    font-family: var(--bs-font-secondary);
+    font-size: 298px;
+    font-weight: 800;
+    line-height: 208px;
+  }
+
+  .sub-title {
+    color: var(--bs-text-color5);
+    font-family: var(--bs-font-secondary);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 118.86%;
+    margin-top: 43px;
+    margin-bottom: 24px;
+  }
+
+  p {
+    color: var(--bs-paragraph);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+    max-width: 460px;
+    ;
+  }
+
+  .back-top-home {
+    padding: 105px 0 139px 0;
+
+    .back-to-home-btn {
+      font-family: var(--bs-font-secondary);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 125%;
+      width: 225px;
+      height: 225px;
+      background: var(--bs-primary);
+      padding: 70px 36px 58px;
+      border: 0;
+
+      .icon {
+        margin-top: 13px;
+      }
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .error-section .title {
+    font-size: 240px;
+    line-height: 176px;
+  }
+
+  .error-section {
+    padding-top: 174px;
+  }
+
+  .error-section .back-top-home {
+    padding: 50px 0 100px 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .error-section .title {
+    font-size: 134px;
+    line-height: 104px;
+  }
+
+  .error-section .sub-title {
+    font-size: 30px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+  }
+
+  .error-section p {
+    font-size: 16px;
+  }
+
+  .error-section .back-top-home .back-to-home-btn {
+    font-size: 16px;
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .error-section {
+    padding-top: 130px;
+  }
+}

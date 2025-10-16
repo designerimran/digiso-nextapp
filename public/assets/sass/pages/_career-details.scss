@@ -1,0 +1,273 @@
+/*=================================
+	27. Career details page CSS start
+===================================*/
+.career-details-banner-section {
+  height: 561px;
+  background-size: cover !important;
+  margin-top: 99px;
+
+  .career-details-info {
+    background-color: var(--bs-white);
+    max-width: 1200px;
+    padding: 55px 34px 41px 28px;
+    gap: 88px;
+    row-gap: 43px;
+
+    .info-item {
+      gap: 43px;
+      justify-content: space-between;
+
+      .sub-title {
+        color: var(--bs-text-color9);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 140%;
+        margin-bottom: 4px;
+      }
+
+      .title {
+        color: var(--bs-text-color10);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 140%;
+      }
+
+      &:first-child {
+        width: 269px;
+      }
+
+      &:nth-child(2) {
+        width: 147px;
+      }
+
+      &:nth-child(3) {
+        width: 251px;
+      }
+
+      &:nth-child(4) {
+        width: 187px;
+      }
+    }
+  }
+}
+
+.career-description-section {
+  padding-top: 94px;
+  background-color: var(--bs-white);
+
+  .title {
+    color: var(--bs-text-color1);
+    font-family: var(--bs-font-secondary);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 15px;
+  }
+
+  .sub-title {
+    color: var(--bs-text-color5);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 64px;
+  }
+
+  p {
+    color: var(--bs-paragraph);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 47px;
+  }
+
+  .inner-img {
+    margin-top: 54px;
+    padding-bottom: 77px;
+  }
+
+  .inner-title {
+    color: var(--bs-text-color1);
+    font-family: var(--bs-font-secondary);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 140%;
+    margin-bottom: 16px;
+  }
+
+  ul {
+    margin-bottom: 36px;
+    padding-left: 20px;
+
+    li {
+      color: var(--bs-paragraph);
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 160%;
+    }
+  }
+
+  .email-cv {
+    margin-bottom: 115px;
+
+    .inner-title {
+      margin-bottom: 10px;
+
+    }
+
+    p {
+      a {
+        color: var(--bs-text-color1);
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 600;
+        line-height: 160%;
+      }
+    }
+  }
+
+  .apply-now {
+    padding-bottom: 157px;
+
+    .title {
+      color: var(--bs-text-color1);
+      font-family: var(--bs-font-secondary);
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 132%;
+      padding-bottom: 73px;
+    }
+
+    .input-group {
+      margin-bottom: 44px;
+    }
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .career-details-banner-section .career-details-info {
+    max-width: 1140px;
+    padding: 40px 34px 41px 28px;
+  }
+
+  .career-details-banner-section .career-details-info .info-item:first-child {
+    width: 206px;
+  }
+
+  .career-details-banner-section .career-details-info .info-item {
+    gap: 24px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .career-details-banner-section .career-details-info {
+    gap: 24px;
+  }
+
+  .career-details-banner-section .career-details-info .info-item:first-child {
+    width: 230px;
+  }
+
+  .career-details-banner-section .career-details-info .info-item {
+    gap: 24px;
+  }
+
+  .career-details-banner-section .career-details-info .info-item:nth-child(2) {
+    width: 187px;
+  }
+
+  .career-details-banner-section .career-details-info .info-item:nth-child(3) {
+    width: 218px;
+  }
+
+  .career-details-banner-section .career-details-info .info-item:nth-child(4) {
+    width: 187px;
+  }
+
+  .career-details-banner-section .career-details-info {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .page-header .short-info {
+    margin-top: 20px;
+  }
+
+  .career-details-banner-section .career-details-info {
+    max-width: 720px;
+    bottom: -120px !important;
+  }
+
+  .career-details-banner-section .career-details-info .info-item:first-child {
+    width: unset;
+  }
+
+  .career-details-banner-section .career-details-info .info-item:nth-child(3) {
+    width: unset;
+  }
+
+  .career-details-banner-section {
+    margin-bottom: 80px;
+  }
+
+  .career-description-section .apply-now .title {
+    padding-bottom: 30px;
+  }
+
+  .career-description-section .email-cv {
+    margin-bottom: 100px;
+  }
+
+  .career-description-section .apply-now {
+    padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .career-description-section .email-cv {
+    margin-bottom: 80px;
+  }
+
+  .career-description-section .apply-now {
+    padding-bottom: 80px;
+  }
+
+  .career-description-section p {
+    font-size: 16px;
+  }
+
+  .career-description-section ul li {
+    font-size: 16px;
+  }
+
+  .career-description-section .title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .career-details-banner-section {
+    height: auto;
+    margin-top: 80px;
+    margin-bottom: 0;
+  }
+
+  .career-details-banner-section .career-details-info {
+    bottom: 0px !important;
+    position: static !important;
+    transform: unset !important;
+  }
+
+  .career-description-section .sub-title {
+    margin-bottom: 30px;
+  }
+
+  .career-description-section .inner-img {
+    padding-bottom: 50px;
+  }
+
+  .career-description-section .email-cv {
+    margin-bottom: 40px;
+  }
+}

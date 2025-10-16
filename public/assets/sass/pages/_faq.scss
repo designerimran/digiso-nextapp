@@ -1,0 +1,183 @@
+/*=============================
+	29. Faq page CSS start
+===============================*/
+.faq-section {
+  padding: 167px 0 177px 0;
+
+  .faq-body {
+    margin: 0 1px;
+    margin-right: 88px;
+
+    .accordion-button:focus {
+      box-shadow: none;
+    }
+
+    .accordion-item {
+      border: 0;
+      border-bottom: 1px solid var(--bs-border-color10);
+    }
+
+    .accordion-button:not(.collapsed) {
+      background-color: transparent;
+      box-shadow: none;
+    }
+
+    .accordion-button {
+      padding: 0;
+      color: var(--bs-text-color5);
+      font-family: var(--bs-font-secondary);
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 146%;
+      padding-bottom: 22px;
+      padding-top: 23px;
+      padding-right: 25px;
+    }
+
+    .accordion-body {
+      padding: 0;
+      padding-bottom: 36px;
+      padding-top: 10px;
+
+      p {
+        color: var(--bs-paragraph);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        max-width: 513px;
+      }
+    }
+
+    .accordion-button::after {
+      background-image: url(/assets/img/icons/plus.svg);
+    }
+
+    .accordion-button:not(.collapsed)::after {
+      background-image: url(/assets/img/icons/minus.svg);
+    }
+
+    .accordion-item:first-child {
+      .accordion-button {
+        border-top: 1px solid var(--bs-border-color10);
+      }
+    }
+
+    .accordion-item:last-of-type {
+      border-radius: 0 !important;
+    }
+
+    .accordion-item:first-of-type {
+      border-radius: 0 !important;
+
+      .accordion-button {
+        border-radius: 0 !important;
+      }
+    }
+  }
+}
+
+.faq-section-two {
+  padding-top: 0 !important;
+  padding-bottom: 224px !important;
+
+  .section-title-block {
+    margin-bottom: 33px;
+    padding-left: 15px;
+  }
+
+  .faq-image {
+    left: -120px;
+    max-width: 632px;
+    overflow: hidden;
+    border-top-right-radius: 103px;
+
+    img {
+      width: 100% !important;
+      border-top-right-radius: 103px;
+    }
+  }
+
+  .faq-body {
+    margin-right: 1px !important;
+    margin-left: 89px !important;
+    margin-top: 58px !important;
+
+    .accordion-button {
+      padding-left: 15px !important;
+    }
+
+    .accordion-body {
+      padding-left: 15px !important;
+    }
+  }
+}
+
+@media (max-width:1399.98px) {
+  .faq-section-two .faq-image {
+    left: 0;
+    max-width: 540px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .faq-section .faq-body {
+    margin-right: 0;
+  }
+
+  .faq-section .faq-body .accordion-button {
+    padding-bottom: 17px;
+    padding-top: 17px;
+    padding-right: 0;
+  }
+
+  .faq-section-two .faq-image {
+    max-width: 476px;
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .faq-section {
+    padding: 100px 0 100px 0;
+  }
+
+  .faq-section .faq-body {
+    margin-bottom: 40px;
+  }
+
+  .faq-section-two .faq-image {
+    max-width: 476px;
+    margin-top: 0;
+    position: static !important;
+    margin: 0 auto;
+  }
+
+  .faq-section-two .faq-body {
+    margin-left: 0 !important;
+  }
+
+  .faq-section-two {
+    padding-bottom: 100px !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .faq-section {
+    padding: 80px 0 80px 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .faq-section .faq-body .accordion-button {
+    font-size: 16px;
+  }
+
+  .faq-section .faq-body .accordion-body p {
+    font-size: 15px;
+  }
+
+  .faq-section .faq-body .accordion-body {
+    padding-top: 0;
+  }
+}

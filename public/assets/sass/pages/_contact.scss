@@ -1,0 +1,249 @@
+/*=============================
+	31. Contact page CSS start
+===============================*/
+.contact-info-section {
+  margin-top: 170px;
+
+  .contact-info {
+    margin-top: -30px;
+
+    p {
+      padding-right: 0px;
+      padding-bottom: 43px;
+    }
+
+    ul {
+      li {
+        color: var(--bs-text-color2);
+        font-family: var(--bs-font-secondary);
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 140%;
+        margin-bottom: 10px;
+
+        &:hover {
+          text-decoration: underline;
+        }
+
+        span {
+          padding-right: 10px;
+        }
+
+        a {
+          color: var(--bs-text-color2);
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+.common-social-icon {
+  gap: 2px;
+
+  a {
+    width: 72px;
+    height: 72px;
+    background: var(--bs-bg-color2);
+    img{
+      transition: var(--bs-transition);
+    }
+
+    &:hover {
+      margin-top: -5px;
+      background-color: var(--bs-primary);
+      img{
+        filter: brightness(0);
+      }
+    }
+  }
+}
+
+.contact-form-section {
+  margin-top: 134px;
+
+  .gmap {
+    iframe {
+      width: 100%;
+      height: 875px;
+      margin-bottom: -20px;
+    }
+  }
+
+  .form-main {
+    padding: 64px 50px;
+    max-width: 964px;
+    flex-shrink: 0;
+    background: var(--bs-white);
+    box-shadow: 0px 4px 11.9px 0px rgba(201, 201, 201, 0.25);
+
+    .form-title {
+      margin-bottom: 73px;
+      color: var(--bs-text-color1);
+      font-family: var(--bs-font-secondary);
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 132%;
+    }
+
+    .input-group {
+      margin-bottom: 44px;
+    }
+  }
+}
+
+.input-group {
+  .form-label {
+    color: var(--bs-paragraph);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    border: 0;
+    border-bottom: 1px solid var(--bs-border-color5);
+    padding-bottom: 12px;
+    width: 100%;
+    cursor: pointer;
+    transition: var(--bs-transition);
+
+    &:hover {
+      border-color: var(--bs-border-color7);
+    }
+  }
+
+  .form-control {
+    color: var(--bs-paragraph);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    border: 0;
+    border-bottom: 1px solid var(--bs-border-color5);
+    padding-bottom: 12px;
+    padding-top: 0;
+
+    &:focus {
+      border-color: var(--bs-border-color7);
+    }
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
+  .form-textarea {
+    min-height: 122px;
+    resize: none;
+
+    &:focus {
+      border-color: var(--bs-border-color7);
+    }
+  }
+}
+
+
+.ajax-response.error {
+  margin-top: 30px;
+  color: red;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: rgba(255, 0, 0, 0.1);
+  border: 1px solid rgba(255, 0, 0, 0.5);
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+.ajax-response.success {
+  margin-top: 30px;
+  color: green;
+  background-color: rgba(0, 128, 0, 0.1);
+  border: 1px solid rgba(0, 128, 0, 0.5);
+  font-weight: 500;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+@media (max-width: 1199.98px) {
+  .contact-info-section {
+    margin-top: 60px;
+  }
+
+  .contact-info-section .contact-info {
+    margin-top: 0;
+  }
+
+  .contact-form-section .form-main {
+    max-width: 936px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .contact-info-section .contact-info {
+    margin-top: 30px;
+  }
+
+  .contact-form-section .form-main {
+    max-width: 695px;
+  }
+
+  .contact-form-section {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .contact-form-section {
+    margin-top: 80px;
+  }
+
+  .contact-form-section .form-main {
+    max-width: 515px;
+  }
+
+  .contact-form-section .form-main .form-title {
+    margin-bottom: 40px;
+  }
+
+  .common-social-icon a {
+    width: 60px;
+    height: 60px;
+    background: var(--bs-bg-color2);
+  }
+
+  .contact-form-section .form-main .input-group {
+    margin-bottom: 30px;
+  }
+
+  .input-group .form-control {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .contact-form-section .form-main {
+    max-width: unset;
+    width: 100% !important;
+    position: sticky !important;
+  }
+
+  .contact-form-section .gmap iframe {
+    width: 100%;
+    height: 375px;
+    margin-bottom: 0;
+  }
+
+  .contact-info-section .contact-info ul li {
+    font-size: 20px;
+  }
+
+  .contact-form-section .form-main {
+    padding: 60px 0;
+  }
+}

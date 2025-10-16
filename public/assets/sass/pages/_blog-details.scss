@@ -1,0 +1,151 @@
+/*=============================
+	23. Blog details page CSS start
+===============================*/
+.blog-details-meta {
+  color: var(--bs-paragraph);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  margin-bottom: 22px;
+}
+
+.blog-details-section {
+  margin-top: 47px;
+
+  .writer-info {
+    margin-bottom: 60px;
+
+    .info-block {
+      .img {
+        width: 72px;
+        height: 72px;
+        border-radius: 50%;
+
+        img {
+          height: 100%;
+          object-fit: cover;
+          border-radius: 50%;
+        }
+      }
+
+      .text {
+        p {
+          color: var(--bs-paragraph);
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 140%;
+          margin-bottom: 4px;
+        }
+
+        .title {
+          color: var(--bs-text-color1);
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 140%;
+        }
+      }
+    }
+
+    .viewed {
+      margin-left: 58px;
+    }
+  }
+
+  .blog-details-banner {
+    margin-bottom: 50px;
+  }
+
+  .blog-details-info {
+
+    p {
+      font-size: 18px;
+    }
+
+    p+p {
+      margin-top: 32px;
+    }
+
+    .inner-block-img {
+      margin: 50px 0 57px 0;
+
+      p {
+        margin-top: 45px;
+        font-size: 18px;
+        color: var(--bs-text-color2);
+      }
+    }
+
+    .section-title-block {
+      margin-bottom: 17px;
+    }
+
+    .content-block {
+      margin-bottom: 62px;
+
+      ul {
+        margin-top: 32px;
+
+        li {
+          color: var(--bs-text-color2);
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 160%;
+
+          span {
+            margin-right: 12px;
+          }
+        }
+      }
+    }
+  }
+
+  .related-blog {
+    margin: 160px 0 160px 0;
+
+    .section-title-block {
+      margin-bottom: 60px;
+    }
+  }
+}
+
+
+@media (max-width: 991.98px) {
+  .blog-details-section .related-blog {
+    margin: 100px 0 100px 0;
+  }
+
+  .blog-details-section .related-blog .section-title-block {
+    margin-bottom: 40px;
+  }
+
+  .blog-details-section .blog-details-info .content-block {
+    margin-bottom: 36px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .blog-details-section .related-blog {
+    margin: 80px 0 80px 0;
+  }
+
+  .blog-details-section .blog-details-info p {
+    font-size: 16px;
+  }
+
+  .blog-details-section .content-block .tp-split-line {
+    text-align: left !important;
+  }
+
+  .blog-details-section .related-blog .tp-split-line {
+    text-align: left !important;
+  }
+
+  .blog-details-section .writer-info .viewed {
+    margin-left: 33px;
+  }
+
+  .blog-details-section .writer-info {
+    margin-bottom: 40px;
+  }
+}
