@@ -153,4 +153,3 @@ export async function errorData() {
   const result = await fetch(`${server}/error`, { next: { revalidate: 10 } });
   return result.json();
 }
-
